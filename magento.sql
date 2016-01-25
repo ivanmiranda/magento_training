@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Tiempo de generación: 25-01-2016 a las 14:05:29
+-- Tiempo de generación: 25-01-2016 a las 17:34:28
 -- Versión del servidor: 5.6.27-0ubuntu0.14.04.1
 -- Versión de PHP: 5.5.9-1ubuntu4.14
 
@@ -39,7 +39,7 @@ CREATE TABLE IF NOT EXISTS `m1_adminnotification_inbox` (
   KEY `IDX_M1_ADMINNOTIFICATION_INBOX_SEVERITY` (`severity`),
   KEY `IDX_M1_ADMINNOTIFICATION_INBOX_IS_READ` (`is_read`),
   KEY `IDX_M1_ADMINNOTIFICATION_INBOX_IS_REMOVE` (`is_remove`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Adminnotification Inbox' AUTO_INCREMENT=101 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Adminnotification Inbox' AUTO_INCREMENT=107 ;
 
 --
 -- Volcado de datos para la tabla `m1_adminnotification_inbox`
@@ -145,7 +145,13 @@ INSERT INTO `m1_adminnotification_inbox` (`notification_id`, `severity`, `date_a
 (97, 4, '2015-11-19 03:40:40', 'Magento 2.0 Is Available!', 'Magento 2.0, our next generation open source digital commerce platform is here!  Magento 2.0 offers enhanced performance and scalability, new features to deliver better shopping experiences and conversion rates, and business agility and productivity improvements.  Learn more http://magento.com/blog/magento-news/new-era-commerce-innovation.\n\n', 'http://magento.com/blog/magento-news/new-era-commerce-innovation', 0, 0),
 (98, 4, '2016-01-14 04:51:52', 'Have questions? Magento has big answers at Imagine Commerce.', 'Big news, bigger experts, and an even bigger ecosystem. Will you be at Imagine Commerce? Join us. ', 'http://imagine.magento.com', 0, 0),
 (99, 1, '2016-01-21 04:17:19', 'Important: New Security Patch (SUPEE-7405) and Release – 1/20/2016', 'Today, we are releasing a new patch (SUPEE-7405) and Community Edition 1.9.2.3 to improve the security of Magento sites. There are no confirmed attacks related to the security issues, but certain vulnerabilities can potentially be exploited to access customer information or take over administrator sessions. You can download the patch and release from the Community Edition Download Page and learn more at https://magento.com/security/patches/supee-7405. ', 'https://magento.com/security/patches/supee-7405', 0, 0),
-(100, 4, '2008-11-08 10:46:42', 'Reminder: Change Magento`s default phone numbers and callouts before site launch', 'Before launching your Magento store, please remember to change Magento`s default phone numbers that appear in email templates, callouts, templates, etc.', '', 0, 0);
+(100, 4, '2008-11-08 10:46:42', 'Reminder: Change Magento`s default phone numbers and callouts before site launch', 'Before launching your Magento store, please remember to change Magento`s default phone numbers that appear in email templates, callouts, templates, etc.', '', 0, 0),
+(101, 4, '2008-11-08 10:46:42', 'Reminder: Change Magento`s default phone numbers and callouts before site launch', 'Before launching your Magento store, please remember to change Magento`s default phone numbers that appear in email templates, callouts, templates, etc.', '', 0, 0),
+(102, 4, '2008-11-08 10:46:42', 'Reminder: Change Magento`s default phone numbers and callouts before site launch', 'Before launching your Magento store, please remember to change Magento`s default phone numbers that appear in email templates, callouts, templates, etc.', '', 0, 0),
+(103, 4, '2008-11-08 10:46:42', 'Reminder: Change Magento`s default phone numbers and callouts before site launch', 'Before launching your Magento store, please remember to change Magento`s default phone numbers that appear in email templates, callouts, templates, etc.', '', 0, 0),
+(104, 4, '2008-11-08 10:46:42', 'Reminder: Change Magento`s default phone numbers and callouts before site launch', 'Before launching your Magento store, please remember to change Magento`s default phone numbers that appear in email templates, callouts, templates, etc.', '', 0, 0),
+(105, 4, '2008-11-08 10:46:42', 'Reminder: Change Magento`s default phone numbers and callouts before site launch', 'Before launching your Magento store, please remember to change Magento`s default phone numbers that appear in email templates, callouts, templates, etc.', '', 0, 0),
+(106, 4, '2008-11-08 10:46:42', 'Reminder: Change Magento`s default phone numbers and callouts before site launch', 'Before launching your Magento store, please remember to change Magento`s default phone numbers that appear in email templates, callouts, templates, etc.', '', 0, 0);
 
 -- --------------------------------------------------------
 
@@ -244,7 +250,7 @@ CREATE TABLE IF NOT EXISTS `m1_admin_user` (
 --
 
 INSERT INTO `m1_admin_user` (`user_id`, `firstname`, `lastname`, `email`, `username`, `password`, `created`, `modified`, `logdate`, `lognum`, `reload_acl_flag`, `is_active`, `extra`, `rp_token`, `rp_token_created_at`) VALUES
-(1, 'Ivan', 'Miranda', 'pa.ivan.miranda@gmail.com', 'ivan', 'c065db9a6a015122aca57db231e7efce:hovPtijbY8cSz4GzEeJoEflv7W5STI52', '2016-01-26 02:00:06', '2016-01-26 02:00:06', '2016-01-26 02:00:56', 1, 0, 1, 'a:1:{s:11:"configState";a:13:{s:15:"general_country";s:1:"1";s:14:"general_region";s:1:"1";s:14:"general_locale";s:1:"1";s:25:"general_store_information";s:1:"1";s:7:"web_url";s:1:"1";s:7:"web_seo";s:1:"1";s:12:"web_unsecure";s:1:"1";s:10:"web_secure";s:1:"1";s:11:"web_default";s:1:"1";s:9:"web_polls";s:1:"1";s:10:"web_cookie";s:1:"1";s:11:"web_session";s:1:"1";s:24:"web_browser_capabilities";s:1:"1";}}', NULL, NULL);
+(1, 'Ivan', 'Miranda', 'pa.ivan.miranda@gmail.com', 'ivan', 'c065db9a6a015122aca57db231e7efce:hovPtijbY8cSz4GzEeJoEflv7W5STI52', '2016-01-26 02:00:06', '2016-01-26 02:00:06', '2016-01-26 02:13:53', 2, 0, 1, 'a:1:{s:11:"configState";a:21:{s:15:"general_country";s:1:"1";s:14:"general_region";s:1:"1";s:14:"general_locale";s:1:"1";s:25:"general_store_information";s:1:"1";s:7:"web_url";s:1:"1";s:7:"web_seo";s:1:"1";s:12:"web_unsecure";s:1:"1";s:10:"web_secure";s:1:"1";s:11:"web_default";s:1:"1";s:9:"web_polls";s:1:"1";s:10:"web_cookie";s:1:"1";s:11:"web_session";s:1:"1";s:24:"web_browser_capabilities";s:1:"1";s:14:"design_package";s:1:"1";s:12:"design_theme";s:1:"1";s:11:"design_head";s:1:"0";s:13:"design_header";s:1:"1";s:13:"design_footer";s:1:"0";s:16:"design_watermark";s:1:"0";s:17:"design_pagination";s:1:"0";s:12:"design_email";s:1:"0";}}', NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -470,7 +476,17 @@ CREATE TABLE IF NOT EXISTS `m1_cataloginventory_stock_item` (
   UNIQUE KEY `UNQ_M1_CATALOGINVENTORY_STOCK_ITEM_PRODUCT_ID_STOCK_ID` (`product_id`,`stock_id`),
   KEY `IDX_M1_CATALOGINVENTORY_STOCK_ITEM_PRODUCT_ID` (`product_id`),
   KEY `IDX_M1_CATALOGINVENTORY_STOCK_ITEM_STOCK_ID` (`stock_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Cataloginventory Stock Item' AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Cataloginventory Stock Item' AUTO_INCREMENT=5 ;
+
+--
+-- Volcado de datos para la tabla `m1_cataloginventory_stock_item`
+--
+
+INSERT INTO `m1_cataloginventory_stock_item` (`item_id`, `product_id`, `stock_id`, `qty`, `min_qty`, `use_config_min_qty`, `is_qty_decimal`, `backorders`, `use_config_backorders`, `min_sale_qty`, `use_config_min_sale_qty`, `max_sale_qty`, `use_config_max_sale_qty`, `is_in_stock`, `low_stock_date`, `notify_stock_qty`, `use_config_notify_stock_qty`, `manage_stock`, `use_config_manage_stock`, `stock_status_changed_auto`, `use_config_qty_increments`, `qty_increments`, `use_config_enable_qty_inc`, `enable_qty_increments`, `is_decimal_divided`) VALUES
+(1, 1, 1, 100.0000, 0.0000, 1, 0, 0, 1, 1.0000, 1, 0.0000, 1, 1, NULL, NULL, 1, 0, 1, 0, 1, 0.0000, 1, 0, 0),
+(2, 2, 1, 100.0000, 0.0000, 1, 0, 0, 1, 1.0000, 1, 0.0000, 1, 1, NULL, NULL, 1, 0, 1, 0, 1, 0.0000, 1, 0, 0),
+(3, 3, 1, 100.0000, 0.0000, 1, 0, 0, 1, 1.0000, 1, 0.0000, 1, 1, NULL, NULL, 1, 0, 1, 0, 1, 0.0000, 1, 0, 0),
+(4, 4, 1, 100.0000, 0.0000, 1, 0, 0, 1, 1.0000, 1, 0.0000, 1, 1, NULL, NULL, 1, 0, 1, 0, 1, 0.0000, 1, 0, 0);
 
 -- --------------------------------------------------------
 
@@ -488,6 +504,16 @@ CREATE TABLE IF NOT EXISTS `m1_cataloginventory_stock_status` (
   KEY `IDX_M1_CATALOGINVENTORY_STOCK_STATUS_STOCK_ID` (`stock_id`),
   KEY `IDX_M1_CATALOGINVENTORY_STOCK_STATUS_WEBSITE_ID` (`website_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Cataloginventory Stock Status';
+
+--
+-- Volcado de datos para la tabla `m1_cataloginventory_stock_status`
+--
+
+INSERT INTO `m1_cataloginventory_stock_status` (`product_id`, `website_id`, `stock_id`, `qty`, `stock_status`) VALUES
+(1, 1, 1, 100.0000, 1),
+(2, 1, 1, 100.0000, 1),
+(3, 1, 1, 100.0000, 1),
+(4, 1, 1, 100.0000, 1);
 
 -- --------------------------------------------------------
 
@@ -670,7 +696,17 @@ CREATE TABLE IF NOT EXISTS `m1_catalogsearch_fulltext` (
   PRIMARY KEY (`fulltext_id`),
   UNIQUE KEY `UNQ_M1_CATALOGSEARCH_FULLTEXT_PRODUCT_ID_STORE_ID` (`product_id`,`store_id`),
   FULLTEXT KEY `FTI_M1_CATALOGSEARCH_FULLTEXT_DATA_INDEX` (`data_index`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='Catalog search result table' AUTO_INCREMENT=1 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COMMENT='Catalog search result table' AUTO_INCREMENT=6 ;
+
+--
+-- Volcado de datos para la tabla `m1_catalogsearch_fulltext`
+--
+
+INSERT INTO `m1_catalogsearch_fulltext` (`fulltext_id`, `product_id`, `store_id`, `data_index`) VALUES
+(2, 1, 1, '1000188550|None|iPhone 6|No esperes más y adquiere tu iPhone.Ahora puedes tener el iPnone 6 con 16 GB de capacidad y la sorprendente tecnologia que este equipo de ultima generación te brinda. Increible resolución de pantalla, gran velocidad de procesamiento, fotos panoramicas, rafaga, enfoque con toque de pantalla además de la gran tienda de aplicaciones a la que tendrás acceso. Precios y promociones válidos en DF y Área Metropolitana; Pueden variar por ciudad, sin previo aviso y son responsabilidad del operador telefónico.|iPhone 6|11990|1'),
+(3, 2, 1, 'AAA000001|None|iPhone 5|No esperes más y adquiere tu iPhone.Ahora puedes tener el iPnone 5 con 16 GB de capacidad y la sorprendente tecnologia que este equipo de ultima generación te brinda. Increible resolución de pantalla, gran velocidad de procesamiento, fotos panoramicas, rafaga, enfoque con toque de pantalla además de la gran tienda de aplicaciones a la que tendrás acceso. Precios y promociones válidos en DF y Área Metropolitana; Pueden variar por ciudad, sin previo aviso y son responsabilidad del operador telefónico.|iPhone 5|5990|1'),
+(4, 3, 1, 'AAA000002|None|Galaxy s6|artphone Samsung Galaxy S6 Flat 4G te ofrece la mejor tecnología: es ideal para tu estilo de vida. Se distingue por su diseño delgado, ligero, en metal y cristal. Tiene una pantalla ultra delgada Quad HD Súper AMOLED de 5.1 pulgadas que proyecta imágenes más brillantes y nítidas. Además, se ajusta a las condiciones de iluminación. Este teléfono cuenta con Exynos 7420 Octa Core 64 Bit, el procesador con la mayor potencia y velocidad que se haya incluido en un celular. Su cámara frontal es de 5 Megapíxeles con un lente angular para capturar más imágenes de fondo. Su cámara posterior es de 16 Megapíxeles y ultrarrápida, posee estabilizador óptico de imagen y HDR automático para tomar fotos increíbles en cualquier parte, de día y de noche. Está equipado con una batería de carga rápida de 2550 mAh, va de cero a 50% en 30 minutos. El Smartphone Samsung Galaxy S6 Flat 4G te mantendrá conectado por más tiempo gracias a su modo Ultra Ahorro de Energía, pues cuando te quede 10% de pila en el celular, podrás seguir llamando y enviando mensajes hasta por 24 horas más.|Galaxy s6|12099|1'),
+(5, 4, 1, 'AAA000003|None|Moto X|artphone Samsung Galaxy S6 Flat 4G te ofrece la mejor tecnología: es ideal para tu estilo de vida. Se distingue por su diseño delgado, ligero, en metal y cristal. Tiene una pantalla ultra delgada Quad HD Súper AMOLED de 5.1 pulgadas que proyecta imágenes más brillantes y nítidas. Además, se ajusta a las condiciones de iluminación. Este teléfono cuenta con Exynos 7420 Octa Core 64 Bit, el procesador con la mayor potencia y velocidad que se haya incluido en un celular. Su cámara frontal es de 5 Megapíxeles con un lente angular para capturar más imágenes de fondo. Su cámara posterior es de 16 Megapíxeles y ultrarrápida, posee estabilizador óptico de imagen y HDR automático para tomar fotos increíbles en cualquier parte, de día y de noche. Está equipado con una batería de carga rápida de 2550 mAh, va de cero a 50% en 30 minutos. El Smartphone Samsung Galaxy S6 Flat 4G te mantendrá conectado por más tiempo gracias a su modo Ultra Ahorro de Energía, pues cuando te quede 10% de pila en el celular, podrás seguir llamando y enviando mensajes hasta por 24 horas más.|Moto X|10099|1');
 
 -- --------------------------------------------------------
 
@@ -694,7 +730,14 @@ CREATE TABLE IF NOT EXISTS `m1_catalogsearch_query` (
   KEY `IDX_M1_CATALOGSEARCH_QUERY_QUERY_TEXT_STORE_ID_POPULARITY` (`query_text`,`store_id`,`popularity`),
   KEY `IDX_M1_CATALOGSEARCH_QUERY_STORE_ID` (`store_id`),
   KEY `IDX_M1_M1_CATALOGSEARCH_QUERY_SYNONYM_FOR` (`synonym_for`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog search query table' AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Catalog search query table' AUTO_INCREMENT=2 ;
+
+--
+-- Volcado de datos para la tabla `m1_catalogsearch_query`
+--
+
+INSERT INTO `m1_catalogsearch_query` (`query_id`, `query_text`, `num_results`, `popularity`, `redirect`, `synonym_for`, `store_id`, `display_in_terms`, `is_active`, `is_processed`, `updated_at`) VALUES
+(1, 'iphone', 2, 5, NULL, NULL, 1, 1, 1, 0, '2016-01-26 05:05:40');
 
 -- --------------------------------------------------------
 
@@ -783,15 +826,18 @@ CREATE TABLE IF NOT EXISTS `m1_catalog_category_entity` (
   PRIMARY KEY (`entity_id`),
   KEY `IDX_M1_CATALOG_CATEGORY_ENTITY_LEVEL` (`level`),
   KEY `IDX_M1_CATALOG_CATEGORY_ENTITY_PATH_ENTITY_ID` (`path`,`entity_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Catalog Category Table' AUTO_INCREMENT=3 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Catalog Category Table' AUTO_INCREMENT=6 ;
 
 --
 -- Volcado de datos para la tabla `m1_catalog_category_entity`
 --
 
 INSERT INTO `m1_catalog_category_entity` (`entity_id`, `entity_type_id`, `attribute_set_id`, `parent_id`, `created_at`, `updated_at`, `path`, `position`, `level`, `children_count`) VALUES
-(1, 3, 0, 0, '2016-01-26 01:59:28', '2016-01-26 01:59:28', '1', 0, 0, 1),
-(2, 3, 3, 1, '2016-01-26 01:59:28', '2016-01-26 01:59:28', '1/2', 1, 1, 0);
+(1, 3, 0, 0, '2016-01-26 01:59:28', '2016-01-26 01:59:28', '1', 0, 0, 4),
+(2, 3, 3, 1, '2016-01-26 01:59:28', '2016-01-26 01:59:28', '1/2', 1, 1, 0),
+(3, 3, 3, 1, '2016-01-26 03:21:34', '2016-01-26 05:31:33', '1/3', 2, 1, 2),
+(4, 3, 3, 3, '2016-01-26 03:22:15', '2016-01-26 05:06:47', '1/3/4', 1, 2, 0),
+(5, 3, 3, 3, '2016-01-26 03:22:30', '2016-01-26 05:31:42', '1/3/5', 2, 2, 0);
 
 -- --------------------------------------------------------
 
@@ -811,7 +857,19 @@ CREATE TABLE IF NOT EXISTS `m1_catalog_category_entity_datetime` (
   KEY `IDX_M1_CATALOG_CATEGORY_ENTITY_DATETIME_ENTITY_ID` (`entity_id`),
   KEY `IDX_M1_CATALOG_CATEGORY_ENTITY_DATETIME_ATTRIBUTE_ID` (`attribute_id`),
   KEY `IDX_M1_CATALOG_CATEGORY_ENTITY_DATETIME_STORE_ID` (`store_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Category Datetime Attribute Backend Table' AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Catalog Category Datetime Attribute Backend Table' AUTO_INCREMENT=15 ;
+
+--
+-- Volcado de datos para la tabla `m1_catalog_category_entity_datetime`
+--
+
+INSERT INTO `m1_catalog_category_entity_datetime` (`value_id`, `entity_type_id`, `attribute_id`, `store_id`, `entity_id`, `value`) VALUES
+(1, 3, 59, 0, 3, NULL),
+(2, 3, 60, 0, 3, NULL),
+(3, 3, 59, 0, 4, NULL),
+(4, 3, 60, 0, 4, NULL),
+(5, 3, 59, 0, 5, NULL),
+(6, 3, 60, 0, 5, NULL);
 
 -- --------------------------------------------------------
 
@@ -831,7 +889,16 @@ CREATE TABLE IF NOT EXISTS `m1_catalog_category_entity_decimal` (
   KEY `IDX_M1_CATALOG_CATEGORY_ENTITY_DECIMAL_ENTITY_ID` (`entity_id`),
   KEY `IDX_M1_CATALOG_CATEGORY_ENTITY_DECIMAL_ATTRIBUTE_ID` (`attribute_id`),
   KEY `IDX_M1_CATALOG_CATEGORY_ENTITY_DECIMAL_STORE_ID` (`store_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Category Decimal Attribute Backend Table' AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Catalog Category Decimal Attribute Backend Table' AUTO_INCREMENT=4 ;
+
+--
+-- Volcado de datos para la tabla `m1_catalog_category_entity_decimal`
+--
+
+INSERT INTO `m1_catalog_category_entity_decimal` (`value_id`, `entity_type_id`, `attribute_id`, `store_id`, `entity_id`, `value`) VALUES
+(1, 3, 70, 0, 3, NULL),
+(2, 3, 70, 0, 4, NULL),
+(3, 3, 70, 0, 5, NULL);
 
 -- --------------------------------------------------------
 
@@ -851,7 +918,7 @@ CREATE TABLE IF NOT EXISTS `m1_catalog_category_entity_int` (
   KEY `IDX_M1_CATALOG_CATEGORY_ENTITY_INT_ENTITY_ID` (`entity_id`),
   KEY `IDX_M1_CATALOG_CATEGORY_ENTITY_INT_ATTRIBUTE_ID` (`attribute_id`),
   KEY `IDX_M1_CATALOG_CATEGORY_ENTITY_INT_STORE_ID` (`store_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Catalog Category Integer Attribute Backend Table' AUTO_INCREMENT=7 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Catalog Category Integer Attribute Backend Table' AUTO_INCREMENT=29 ;
 
 --
 -- Volcado de datos para la tabla `m1_catalog_category_entity_int`
@@ -863,7 +930,25 @@ INSERT INTO `m1_catalog_category_entity_int` (`value_id`, `entity_type_id`, `att
 (3, 3, 42, 0, 2, 1),
 (4, 3, 67, 0, 2, 1),
 (5, 3, 42, 1, 2, 1),
-(6, 3, 67, 1, 2, 1);
+(6, 3, 67, 1, 2, 1),
+(7, 3, 42, 0, 3, 1),
+(8, 3, 67, 0, 3, 1),
+(9, 3, 50, 0, 3, NULL),
+(10, 3, 51, 0, 3, 0),
+(11, 3, 68, 0, 3, 0),
+(12, 3, 69, 0, 3, 0),
+(13, 3, 42, 0, 4, 0),
+(14, 3, 67, 0, 4, 1),
+(15, 3, 50, 0, 4, NULL),
+(16, 3, 51, 0, 4, 0),
+(17, 3, 68, 0, 4, 0),
+(18, 3, 69, 0, 4, 0),
+(19, 3, 42, 0, 5, 0),
+(20, 3, 67, 0, 5, 1),
+(21, 3, 50, 0, 5, NULL),
+(22, 3, 51, 0, 5, 0),
+(23, 3, 68, 0, 5, 0),
+(24, 3, 69, 0, 5, 0);
 
 -- --------------------------------------------------------
 
@@ -883,7 +968,7 @@ CREATE TABLE IF NOT EXISTS `m1_catalog_category_entity_text` (
   KEY `IDX_M1_CATALOG_CATEGORY_ENTITY_TEXT_ENTITY_ID` (`entity_id`),
   KEY `IDX_M1_CATALOG_CATEGORY_ENTITY_TEXT_ATTRIBUTE_ID` (`attribute_id`),
   KEY `IDX_M1_CATALOG_CATEGORY_ENTITY_TEXT_STORE_ID` (`store_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Catalog Category Text Attribute Backend Table' AUTO_INCREMENT=5 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Catalog Category Text Attribute Backend Table' AUTO_INCREMENT=40 ;
 
 --
 -- Volcado de datos para la tabla `m1_catalog_category_entity_text`
@@ -893,7 +978,22 @@ INSERT INTO `m1_catalog_category_entity_text` (`value_id`, `entity_type_id`, `at
 (1, 3, 65, 0, 1, NULL),
 (2, 3, 65, 1, 1, NULL),
 (3, 3, 65, 0, 2, NULL),
-(4, 3, 65, 1, 2, NULL);
+(4, 3, 65, 1, 2, NULL),
+(5, 3, 44, 0, 3, NULL),
+(6, 3, 47, 0, 3, NULL),
+(7, 3, 48, 0, 3, NULL),
+(8, 3, 62, 0, 3, NULL),
+(9, 3, 65, 0, 3, NULL),
+(10, 3, 44, 0, 4, NULL),
+(11, 3, 47, 0, 4, NULL),
+(12, 3, 48, 0, 4, NULL),
+(13, 3, 62, 0, 4, NULL),
+(14, 3, 65, 0, 4, NULL),
+(15, 3, 44, 0, 5, NULL),
+(16, 3, 47, 0, 5, NULL),
+(17, 3, 48, 0, 5, NULL),
+(18, 3, 62, 0, 5, NULL),
+(19, 3, 65, 0, 5, NULL);
 
 -- --------------------------------------------------------
 
@@ -913,7 +1013,7 @@ CREATE TABLE IF NOT EXISTS `m1_catalog_category_entity_varchar` (
   KEY `IDX_M1_CATALOG_CATEGORY_ENTITY_VARCHAR_ENTITY_ID` (`entity_id`),
   KEY `IDX_M1_CATALOG_CATEGORY_ENTITY_VARCHAR_ATTRIBUTE_ID` (`attribute_id`),
   KEY `IDX_M1_CATALOG_CATEGORY_ENTITY_VARCHAR_STORE_ID` (`store_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Catalog Category Varchar Attribute Backend Table' AUTO_INCREMENT=8 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Catalog Category Varchar Attribute Backend Table' AUTO_INCREMENT=40 ;
 
 --
 -- Volcado de datos para la tabla `m1_catalog_category_entity_varchar`
@@ -926,7 +1026,26 @@ INSERT INTO `m1_catalog_category_entity_varchar` (`value_id`, `entity_type_id`, 
 (4, 3, 41, 0, 2, 'Default Category'),
 (5, 3, 41, 1, 2, 'Default Category'),
 (6, 3, 49, 1, 2, 'PRODUCTS'),
-(7, 3, 43, 1, 2, 'default-category');
+(7, 3, 43, 1, 2, 'default-category'),
+(8, 3, 41, 0, 3, 'Smartphones'),
+(9, 3, 46, 0, 3, NULL),
+(10, 3, 49, 0, 3, 'PRODUCTS_AND_PAGE'),
+(11, 3, 58, 0, 3, NULL),
+(12, 3, 61, 0, 3, NULL),
+(13, 3, 43, 0, 3, 'smartphones'),
+(14, 3, 45, 0, 3, 'smartphones.jpg'),
+(15, 3, 41, 0, 4, 'iPhones'),
+(16, 3, 43, 0, 4, 'iphones'),
+(17, 3, 46, 0, 4, NULL),
+(18, 3, 49, 0, 4, 'PRODUCTS'),
+(19, 3, 58, 0, 4, NULL),
+(20, 3, 61, 0, 4, NULL),
+(21, 3, 41, 0, 5, 'Android'),
+(22, 3, 43, 0, 5, 'android'),
+(23, 3, 46, 0, 5, NULL),
+(24, 3, 49, 0, 5, 'PRODUCTS'),
+(25, 3, 58, 0, 5, NULL),
+(26, 3, 61, 0, 5, NULL);
 
 -- --------------------------------------------------------
 
@@ -941,6 +1060,20 @@ CREATE TABLE IF NOT EXISTS `m1_catalog_category_product` (
   PRIMARY KEY (`category_id`,`product_id`),
   KEY `IDX_M1_CATALOG_CATEGORY_PRODUCT_PRODUCT_ID` (`product_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Product To Category Linkage Table';
+
+--
+-- Volcado de datos para la tabla `m1_catalog_category_product`
+--
+
+INSERT INTO `m1_catalog_category_product` (`category_id`, `product_id`, `position`) VALUES
+(3, 1, 0),
+(3, 2, 0),
+(3, 3, 0),
+(3, 4, 0),
+(4, 1, 0),
+(4, 2, 0),
+(5, 3, 0),
+(5, 4, 0);
 
 -- --------------------------------------------------------
 
@@ -959,6 +1092,16 @@ CREATE TABLE IF NOT EXISTS `m1_catalog_category_product_index` (
   KEY `IDX_M1_CAT_CTGR_PRD_IDX_PRD_ID_STORE_ID_CTGR_ID_VISIBILITY` (`product_id`,`store_id`,`category_id`,`visibility`),
   KEY `D82A6B1944C4FBE19F2C18670DDE4CA1` (`store_id`,`category_id`,`visibility`,`is_parent`,`position`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Category Product Index';
+
+--
+-- Volcado de datos para la tabla `m1_catalog_category_product_index`
+--
+
+INSERT INTO `m1_catalog_category_product_index` (`category_id`, `product_id`, `position`, `is_parent`, `store_id`, `visibility`) VALUES
+(2, 1, 0, 0, 1, 4),
+(2, 2, 0, 0, 1, 4),
+(2, 3, 0, 0, 1, 4),
+(2, 4, 0, 0, 1, 4);
 
 -- --------------------------------------------------------
 
@@ -1300,7 +1443,17 @@ CREATE TABLE IF NOT EXISTS `m1_catalog_product_entity` (
   KEY `IDX_M1_CATALOG_PRODUCT_ENTITY_ENTITY_TYPE_ID` (`entity_type_id`),
   KEY `IDX_M1_CATALOG_PRODUCT_ENTITY_ATTRIBUTE_SET_ID` (`attribute_set_id`),
   KEY `IDX_M1_CATALOG_PRODUCT_ENTITY_SKU` (`sku`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Product Table' AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Catalog Product Table' AUTO_INCREMENT=5 ;
+
+--
+-- Volcado de datos para la tabla `m1_catalog_product_entity`
+--
+
+INSERT INTO `m1_catalog_product_entity` (`entity_id`, `entity_type_id`, `attribute_set_id`, `type_id`, `sku`, `has_options`, `required_options`, `created_at`, `updated_at`) VALUES
+(1, 4, 4, 'simple', '1000188550', 0, 0, '2016-01-26 03:43:15', '2016-01-26 05:00:59'),
+(2, 4, 4, 'simple', 'AAA000001', 0, 0, '2016-01-26 05:01:51', '2016-01-26 05:05:31'),
+(3, 4, 4, 'simple', 'AAA000002', 0, 0, '2016-01-26 05:23:50', '2016-01-26 05:23:50'),
+(4, 4, 4, 'simple', 'AAA000003', 0, 0, '2016-01-26 05:24:07', '2016-01-26 05:31:02');
 
 -- --------------------------------------------------------
 
@@ -1320,7 +1473,37 @@ CREATE TABLE IF NOT EXISTS `m1_catalog_product_entity_datetime` (
   KEY `IDX_M1_CATALOG_PRODUCT_ENTITY_DATETIME_ATTRIBUTE_ID` (`attribute_id`),
   KEY `IDX_M1_CATALOG_PRODUCT_ENTITY_DATETIME_STORE_ID` (`store_id`),
   KEY `IDX_M1_CATALOG_PRODUCT_ENTITY_DATETIME_ENTITY_ID` (`entity_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Product Datetime Attribute Backend Table' AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Catalog Product Datetime Attribute Backend Table' AUTO_INCREMENT=61 ;
+
+--
+-- Volcado de datos para la tabla `m1_catalog_product_entity_datetime`
+--
+
+INSERT INTO `m1_catalog_product_entity_datetime` (`value_id`, `entity_type_id`, `attribute_id`, `store_id`, `entity_id`, `value`) VALUES
+(1, 4, 93, 0, 1, NULL),
+(2, 4, 94, 0, 1, NULL),
+(3, 4, 77, 0, 1, NULL),
+(4, 4, 78, 0, 1, NULL),
+(5, 4, 104, 0, 1, NULL),
+(6, 4, 105, 0, 1, NULL),
+(19, 4, 93, 0, 2, NULL),
+(20, 4, 94, 0, 2, NULL),
+(21, 4, 77, 0, 2, NULL),
+(22, 4, 78, 0, 2, NULL),
+(23, 4, 104, 0, 2, NULL),
+(24, 4, 105, 0, 2, NULL),
+(37, 4, 93, 0, 3, NULL),
+(38, 4, 94, 0, 3, NULL),
+(39, 4, 77, 0, 3, NULL),
+(40, 4, 78, 0, 3, NULL),
+(41, 4, 104, 0, 3, NULL),
+(42, 4, 105, 0, 3, NULL),
+(43, 4, 77, 0, 4, NULL),
+(44, 4, 78, 0, 4, NULL),
+(45, 4, 93, 0, 4, NULL),
+(46, 4, 94, 0, 4, NULL),
+(47, 4, 104, 0, 4, NULL),
+(48, 4, 105, 0, 4, NULL);
 
 -- --------------------------------------------------------
 
@@ -1340,7 +1523,29 @@ CREATE TABLE IF NOT EXISTS `m1_catalog_product_entity_decimal` (
   KEY `IDX_M1_CATALOG_PRODUCT_ENTITY_DECIMAL_STORE_ID` (`store_id`),
   KEY `IDX_M1_CATALOG_PRODUCT_ENTITY_DECIMAL_ENTITY_ID` (`entity_id`),
   KEY `IDX_M1_CATALOG_PRODUCT_ENTITY_DECIMAL_ATTRIBUTE_ID` (`attribute_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Product Decimal Attribute Backend Table' AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Catalog Product Decimal Attribute Backend Table' AUTO_INCREMENT=35 ;
+
+--
+-- Volcado de datos para la tabla `m1_catalog_product_entity_decimal`
+--
+
+INSERT INTO `m1_catalog_product_entity_decimal` (`value_id`, `entity_type_id`, `attribute_id`, `store_id`, `entity_id`, `value`) VALUES
+(1, 4, 80, 0, 1, 129.0000),
+(2, 4, 75, 0, 1, 11990.0000),
+(3, 4, 76, 0, 1, NULL),
+(4, 4, 120, 0, 1, NULL),
+(11, 4, 80, 0, 2, 129.0000),
+(12, 4, 75, 0, 2, 5990.0000),
+(13, 4, 76, 0, 2, NULL),
+(14, 4, 120, 0, 2, NULL),
+(21, 4, 80, 0, 3, 150.0000),
+(22, 4, 75, 0, 3, 12099.0000),
+(23, 4, 76, 0, 3, NULL),
+(24, 4, 120, 0, 3, NULL),
+(25, 4, 75, 0, 4, 10099.0000),
+(26, 4, 76, 0, 4, NULL),
+(27, 4, 80, 0, 4, 150.0000),
+(28, 4, 120, 0, 4, NULL);
 
 -- --------------------------------------------------------
 
@@ -1401,7 +1606,29 @@ CREATE TABLE IF NOT EXISTS `m1_catalog_product_entity_int` (
   KEY `IDX_M1_CATALOG_PRODUCT_ENTITY_INT_ATTRIBUTE_ID` (`attribute_id`),
   KEY `IDX_M1_CATALOG_PRODUCT_ENTITY_INT_STORE_ID` (`store_id`),
   KEY `IDX_M1_CATALOG_PRODUCT_ENTITY_INT_ENTITY_ID` (`entity_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Product Integer Attribute Backend Table' AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Catalog Product Integer Attribute Backend Table' AUTO_INCREMENT=19 ;
+
+--
+-- Volcado de datos para la tabla `m1_catalog_product_entity_int`
+--
+
+INSERT INTO `m1_catalog_product_entity_int` (`value_id`, `entity_type_id`, `attribute_id`, `store_id`, `entity_id`, `value`) VALUES
+(1, 4, 96, 0, 1, 1),
+(2, 4, 102, 0, 1, 4),
+(3, 4, 121, 0, 1, 0),
+(4, 4, 100, 0, 1, 0),
+(5, 4, 96, 0, 2, 1),
+(6, 4, 102, 0, 2, 4),
+(7, 4, 121, 0, 2, 0),
+(8, 4, 100, 0, 2, 0),
+(10, 4, 96, 0, 3, 1),
+(11, 4, 102, 0, 3, 4),
+(12, 4, 121, 0, 3, 0),
+(13, 4, 100, 0, 3, 0),
+(14, 4, 96, 0, 4, 1),
+(15, 4, 100, 0, 4, 0),
+(16, 4, 102, 0, 4, 4),
+(17, 4, 121, 0, 4, 0);
 
 -- --------------------------------------------------------
 
@@ -1417,7 +1644,22 @@ CREATE TABLE IF NOT EXISTS `m1_catalog_product_entity_media_gallery` (
   PRIMARY KEY (`value_id`),
   KEY `IDX_M1_CATALOG_PRODUCT_ENTITY_MEDIA_GALLERY_ATTRIBUTE_ID` (`attribute_id`),
   KEY `IDX_M1_CATALOG_PRODUCT_ENTITY_MEDIA_GALLERY_ENTITY_ID` (`entity_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Product Media Gallery Attribute Backend Table' AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Catalog Product Media Gallery Attribute Backend Table' AUTO_INCREMENT=15 ;
+
+--
+-- Volcado de datos para la tabla `m1_catalog_product_entity_media_gallery`
+--
+
+INSERT INTO `m1_catalog_product_entity_media_gallery` (`value_id`, `attribute_id`, `entity_id`, `value`) VALUES
+(1, 88, 1, '/i/p/iphone-6-flexislim-smoke-white_3.jpg'),
+(2, 88, 1, '/i/p/iphone_6_enr_4.jpg'),
+(3, 88, 1, '/i/p/iphone_6_enr_1.jpg'),
+(7, 88, 2, '/t/o/topic_iphone_5.png'),
+(8, 88, 2, '/i/p/iphone_5.jpg'),
+(9, 88, 3, '/0/0/00750622731800l.jpg'),
+(10, 88, 3, '/s/m/sm-g920izkatce-403979-0.jpg'),
+(13, 88, 4, '/m/o/moto-back-crop.jpg'),
+(14, 88, 4, '/m/o/motorola-moto-x-nuevo-en-caja-blanco-negro-telcel-8482-mlm20004000568_112013-f.jpg');
 
 -- --------------------------------------------------------
 
@@ -1434,6 +1676,21 @@ CREATE TABLE IF NOT EXISTS `m1_catalog_product_entity_media_gallery_value` (
   PRIMARY KEY (`value_id`,`store_id`),
   KEY `IDX_M1_CATALOG_PRODUCT_ENTITY_MEDIA_GALLERY_VALUE_STORE_ID` (`store_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Product Media Gallery Attribute Value Table';
+
+--
+-- Volcado de datos para la tabla `m1_catalog_product_entity_media_gallery_value`
+--
+
+INSERT INTO `m1_catalog_product_entity_media_gallery_value` (`value_id`, `store_id`, `label`, `position`, `disabled`) VALUES
+(1, 0, NULL, 1, 0),
+(2, 0, NULL, 2, 0),
+(3, 0, NULL, 3, 0),
+(7, 0, NULL, 4, 0),
+(8, 0, NULL, 5, 0),
+(9, 0, NULL, 1, 0),
+(10, 0, NULL, 2, 0),
+(13, 0, NULL, 3, 0),
+(14, 0, NULL, 4, 0);
 
 -- --------------------------------------------------------
 
@@ -1453,7 +1710,29 @@ CREATE TABLE IF NOT EXISTS `m1_catalog_product_entity_text` (
   KEY `IDX_M1_CATALOG_PRODUCT_ENTITY_TEXT_ATTRIBUTE_ID` (`attribute_id`),
   KEY `IDX_M1_CATALOG_PRODUCT_ENTITY_TEXT_STORE_ID` (`store_id`),
   KEY `IDX_M1_CATALOG_PRODUCT_ENTITY_TEXT_ENTITY_ID` (`entity_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Product Text Attribute Backend Table' AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Catalog Product Text Attribute Backend Table' AUTO_INCREMENT=32 ;
+
+--
+-- Volcado de datos para la tabla `m1_catalog_product_entity_text`
+--
+
+INSERT INTO `m1_catalog_product_entity_text` (`value_id`, `entity_type_id`, `attribute_id`, `store_id`, `entity_id`, `value`) VALUES
+(1, 4, 72, 0, 1, 'No esperes más y adquiere tu iPhone.Ahora puedes tener el iPnone 6 con 16 GB de capacidad y la sorprendente tecnologia que este equipo de ultima generación te brinda. Increible resolución de pantalla, gran velocidad de procesamiento, fotos panoramicas, rafaga, enfoque con toque de pantalla además de la gran tienda de aplicaciones a la que tendrás acceso. \r\nPrecios y promociones válidos en DF y Área Metropolitana; Pueden variar por ciudad, sin previo aviso y son responsabilidad del operador telefónico. '),
+(2, 4, 73, 0, 1, 'iPhone 6'),
+(3, 4, 83, 0, 1, NULL),
+(4, 4, 106, 0, 1, NULL),
+(9, 4, 72, 0, 2, 'No esperes más y adquiere tu iPhone.Ahora puedes tener el iPnone 5 con 16 GB de capacidad y la sorprendente tecnologia que este equipo de ultima generación te brinda. Increible resolución de pantalla, gran velocidad de procesamiento, fotos panoramicas, rafaga, enfoque con toque de pantalla además de la gran tienda de aplicaciones a la que tendrás acceso. \r\nPrecios y promociones válidos en DF y Área Metropolitana; Pueden variar por ciudad, sin previo aviso y son responsabilidad del operador telefónico. '),
+(10, 4, 73, 0, 2, 'iPhone 5'),
+(11, 4, 83, 0, 2, NULL),
+(12, 4, 106, 0, 2, NULL),
+(19, 4, 72, 0, 3, 'artphone Samsung Galaxy S6 Flat 4G te ofrece la mejor tecnología: es ideal para tu estilo de vida. Se distingue por su diseño delgado, ligero, en metal y cristal. Tiene una pantalla ultra delgada Quad HD Súper AMOLED de 5.1 pulgadas que proyecta imágenes más brillantes y nítidas. Además, se ajusta a las condiciones de iluminación.\r\n\r\nEste teléfono cuenta con Exynos 7420 Octa Core 64 Bit, el procesador con la mayor potencia y velocidad que se haya incluido en un celular. Su cámara frontal es de 5 Megapíxeles con un lente angular para capturar más imágenes de fondo. Su cámara posterior es de 16 Megapíxeles y ultrarrápida, posee estabilizador óptico de imagen y HDR automático para tomar fotos increíbles en cualquier parte, de día y de noche.\r\n\r\nEstá equipado con una batería de carga rápida de 2550 mAh, va de cero a 50% en 30 minutos. El Smartphone Samsung Galaxy S6 Flat 4G te mantendrá conectado por más tiempo gracias a su modo Ultra Ahorro de Energía, pues cuando te quede 10% de pila en el celular, podrás seguir llamando y enviando mensajes hasta por 24 horas más.'),
+(20, 4, 73, 0, 3, 'Galaxy s6'),
+(21, 4, 83, 0, 3, NULL),
+(22, 4, 106, 0, 3, NULL),
+(23, 4, 72, 0, 4, 'artphone Samsung Galaxy S6 Flat 4G te ofrece la mejor tecnología: es ideal para tu estilo de vida. Se distingue por su diseño delgado, ligero, en metal y cristal. Tiene una pantalla ultra delgada Quad HD Súper AMOLED de 5.1 pulgadas que proyecta imágenes más brillantes y nítidas. Además, se ajusta a las condiciones de iluminación.\r\n\r\nEste teléfono cuenta con Exynos 7420 Octa Core 64 Bit, el procesador con la mayor potencia y velocidad que se haya incluido en un celular. Su cámara frontal es de 5 Megapíxeles con un lente angular para capturar más imágenes de fondo. Su cámara posterior es de 16 Megapíxeles y ultrarrápida, posee estabilizador óptico de imagen y HDR automático para tomar fotos increíbles en cualquier parte, de día y de noche.\r\n\r\nEstá equipado con una batería de carga rápida de 2550 mAh, va de cero a 50% en 30 minutos. El Smartphone Samsung Galaxy S6 Flat 4G te mantendrá conectado por más tiempo gracias a su modo Ultra Ahorro de Energía, pues cuando te quede 10% de pila en el celular, podrás seguir llamando y enviando mensajes hasta por 24 horas más.'),
+(24, 4, 73, 0, 4, 'Moto X'),
+(25, 4, 83, 0, 4, NULL),
+(26, 4, 106, 0, 4, NULL);
 
 -- --------------------------------------------------------
 
@@ -1494,7 +1773,89 @@ CREATE TABLE IF NOT EXISTS `m1_catalog_product_entity_varchar` (
   KEY `IDX_M1_CATALOG_PRODUCT_ENTITY_VARCHAR_ATTRIBUTE_ID` (`attribute_id`),
   KEY `IDX_M1_CATALOG_PRODUCT_ENTITY_VARCHAR_STORE_ID` (`store_id`),
   KEY `IDX_M1_CATALOG_PRODUCT_ENTITY_VARCHAR_ENTITY_ID` (`entity_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Product Varchar Attribute Backend Table' AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Catalog Product Varchar Attribute Backend Table' AUTO_INCREMENT=143 ;
+
+--
+-- Volcado de datos para la tabla `m1_catalog_product_entity_varchar`
+--
+
+INSERT INTO `m1_catalog_product_entity_varchar` (`value_id`, `entity_type_id`, `attribute_id`, `store_id`, `entity_id`, `value`) VALUES
+(1, 4, 71, 0, 1, 'iPhone 6'),
+(2, 4, 97, 0, 1, 'iphone-6'),
+(3, 4, 117, 0, 1, NULL),
+(4, 4, 118, 0, 1, '2'),
+(5, 4, 119, 0, 1, '4'),
+(6, 4, 82, 0, 1, NULL),
+(7, 4, 84, 0, 1, NULL),
+(8, 4, 85, 0, 1, '/i/p/iphone-6-flexislim-smoke-white_3.jpg'),
+(9, 4, 86, 0, 1, '/i/p/iphone-6-flexislim-smoke-white_3.jpg'),
+(10, 4, 87, 0, 1, '/i/p/iphone-6-flexislim-smoke-white_3.jpg'),
+(11, 4, 103, 0, 1, NULL),
+(12, 4, 107, 0, 1, NULL),
+(13, 4, 109, 0, 1, 'container1'),
+(14, 4, 122, 0, 1, NULL),
+(15, 4, 112, 0, 1, NULL),
+(16, 4, 113, 0, 1, NULL),
+(17, 4, 114, 0, 1, NULL),
+(18, 4, 98, 1, 1, 'iphone-6.html'),
+(19, 4, 98, 0, 1, 'iphone-6.html'),
+(38, 4, 71, 0, 2, 'iPhone 5'),
+(39, 4, 97, 0, 2, 'iphone-5'),
+(40, 4, 117, 0, 2, NULL),
+(41, 4, 118, 0, 2, '2'),
+(42, 4, 119, 0, 2, '4'),
+(43, 4, 82, 0, 2, NULL),
+(44, 4, 84, 0, 2, NULL),
+(45, 4, 85, 0, 2, '/t/o/topic_iphone_5.png'),
+(46, 4, 86, 0, 2, '/t/o/topic_iphone_5.png'),
+(47, 4, 87, 0, 2, '/t/o/topic_iphone_5.png'),
+(48, 4, 103, 0, 2, NULL),
+(49, 4, 107, 0, 2, NULL),
+(50, 4, 109, 0, 2, 'container1'),
+(51, 4, 122, 0, 2, NULL),
+(52, 4, 112, 0, 2, NULL),
+(53, 4, 113, 0, 2, NULL),
+(54, 4, 114, 0, 2, NULL),
+(55, 4, 98, 0, 2, 'iphone-5.html'),
+(56, 4, 98, 1, 2, 'iphone-5.html'),
+(81, 4, 71, 0, 3, 'Galaxy s6'),
+(82, 4, 97, 0, 3, 'galaxy-s6'),
+(83, 4, 117, 0, 3, NULL),
+(84, 4, 118, 0, 3, '2'),
+(85, 4, 119, 0, 3, '4'),
+(86, 4, 82, 0, 3, NULL),
+(87, 4, 84, 0, 3, NULL),
+(88, 4, 85, 0, 3, '/0/0/00750622731800l.jpg'),
+(89, 4, 86, 0, 3, '/0/0/00750622731800l.jpg'),
+(90, 4, 87, 0, 3, '/0/0/00750622731800l.jpg'),
+(91, 4, 103, 0, 3, NULL),
+(92, 4, 107, 0, 3, NULL),
+(93, 4, 109, 0, 3, 'container1'),
+(94, 4, 122, 0, 3, NULL),
+(95, 4, 112, 0, 3, NULL),
+(96, 4, 113, 0, 3, NULL),
+(97, 4, 114, 0, 3, NULL),
+(98, 4, 98, 1, 3, 'galaxy-s6.html'),
+(99, 4, 98, 0, 3, 'galaxy-s6.html'),
+(100, 4, 71, 0, 4, 'Moto X'),
+(101, 4, 82, 0, 4, NULL),
+(102, 4, 84, 0, 4, NULL),
+(103, 4, 85, 0, 4, '/m/o/moto-back-crop.jpg'),
+(104, 4, 86, 0, 4, '/m/o/moto-back-crop.jpg'),
+(105, 4, 87, 0, 4, '/m/o/moto-back-crop.jpg'),
+(106, 4, 97, 0, 4, 'moto-x'),
+(107, 4, 98, 0, 4, 'moto-x.html'),
+(108, 4, 103, 0, 4, NULL),
+(109, 4, 107, 0, 4, NULL),
+(110, 4, 109, 0, 4, 'container1'),
+(111, 4, 112, 0, 4, NULL),
+(112, 4, 113, 0, 4, NULL),
+(113, 4, 114, 0, 4, NULL),
+(114, 4, 117, 0, 4, NULL),
+(115, 4, 118, 0, 4, '2'),
+(116, 4, 119, 0, 4, '4'),
+(117, 4, 122, 0, 4, NULL),
+(118, 4, 98, 1, 4, 'moto-x.html');
 
 -- --------------------------------------------------------
 
@@ -1513,6 +1874,16 @@ CREATE TABLE IF NOT EXISTS `m1_catalog_product_index_eav` (
   KEY `IDX_M1_CATALOG_PRODUCT_INDEX_EAV_STORE_ID` (`store_id`),
   KEY `IDX_M1_CATALOG_PRODUCT_INDEX_EAV_VALUE` (`value`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Product EAV Index Table';
+
+--
+-- Volcado de datos para la tabla `m1_catalog_product_index_eav`
+--
+
+INSERT INTO `m1_catalog_product_index_eav` (`entity_id`, `attribute_id`, `store_id`, `value`) VALUES
+(1, 121, 1, 0),
+(2, 121, 1, 0),
+(3, 121, 1, 0),
+(4, 121, 1, 0);
 
 -- --------------------------------------------------------
 
@@ -1604,6 +1975,13 @@ CREATE TABLE IF NOT EXISTS `m1_catalog_product_index_eav_tmp` (
   KEY `IDX_M1_CATALOG_PRODUCT_INDEX_EAV_TMP_VALUE` (`value`)
 ) ENGINE=MEMORY DEFAULT CHARSET=utf8 COMMENT='Catalog Product EAV Indexer Temp Table';
 
+--
+-- Volcado de datos para la tabla `m1_catalog_product_index_eav_tmp`
+--
+
+INSERT INTO `m1_catalog_product_index_eav_tmp` (`entity_id`, `attribute_id`, `store_id`, `value`) VALUES
+(4, 121, 1, 0);
+
 -- --------------------------------------------------------
 
 --
@@ -1643,6 +2021,28 @@ CREATE TABLE IF NOT EXISTS `m1_catalog_product_index_price` (
   KEY `IDX_M1_CATALOG_PRODUCT_INDEX_PRICE_MIN_PRICE` (`min_price`),
   KEY `IDX_M1_CAT_PRD_IDX_PRICE_WS_ID_CSTR_GROUP_ID_MIN_PRICE` (`website_id`,`customer_group_id`,`min_price`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Product Price Index Table';
+
+--
+-- Volcado de datos para la tabla `m1_catalog_product_index_price`
+--
+
+INSERT INTO `m1_catalog_product_index_price` (`entity_id`, `customer_group_id`, `website_id`, `tax_class_id`, `price`, `final_price`, `min_price`, `max_price`, `tier_price`, `group_price`) VALUES
+(1, 0, 1, 0, 11990.0000, 11990.0000, 11990.0000, 11990.0000, NULL, NULL),
+(1, 1, 1, 0, 11990.0000, 11990.0000, 11990.0000, 11990.0000, NULL, NULL),
+(1, 2, 1, 0, 11990.0000, 11990.0000, 11990.0000, 11990.0000, NULL, NULL),
+(1, 3, 1, 0, 11990.0000, 11990.0000, 11990.0000, 11990.0000, NULL, NULL),
+(2, 0, 1, 0, 5990.0000, 5990.0000, 5990.0000, 5990.0000, NULL, NULL),
+(2, 1, 1, 0, 5990.0000, 5990.0000, 5990.0000, 5990.0000, NULL, NULL),
+(2, 2, 1, 0, 5990.0000, 5990.0000, 5990.0000, 5990.0000, NULL, NULL),
+(2, 3, 1, 0, 5990.0000, 5990.0000, 5990.0000, 5990.0000, NULL, NULL),
+(3, 0, 1, 0, 12099.0000, 12099.0000, 12099.0000, 12099.0000, NULL, NULL),
+(3, 1, 1, 0, 12099.0000, 12099.0000, 12099.0000, 12099.0000, NULL, NULL),
+(3, 2, 1, 0, 12099.0000, 12099.0000, 12099.0000, 12099.0000, NULL, NULL),
+(3, 3, 1, 0, 12099.0000, 12099.0000, 12099.0000, 12099.0000, NULL, NULL),
+(4, 0, 1, 0, 10099.0000, 10099.0000, 10099.0000, 10099.0000, NULL, NULL),
+(4, 1, 1, 0, 10099.0000, 10099.0000, 10099.0000, 10099.0000, NULL, NULL),
+(4, 2, 1, 0, 10099.0000, 10099.0000, 10099.0000, 10099.0000, NULL, NULL),
+(4, 3, 1, 0, 10099.0000, 10099.0000, 10099.0000, 10099.0000, NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -2036,6 +2436,16 @@ CREATE TABLE IF NOT EXISTS `m1_catalog_product_index_price_tmp` (
   KEY `IDX_M1_CATALOG_PRODUCT_INDEX_PRICE_TMP_MIN_PRICE` (`min_price`)
 ) ENGINE=MEMORY DEFAULT CHARSET=utf8 COMMENT='Catalog Product Price Indexer Temp Table';
 
+--
+-- Volcado de datos para la tabla `m1_catalog_product_index_price_tmp`
+--
+
+INSERT INTO `m1_catalog_product_index_price_tmp` (`entity_id`, `customer_group_id`, `website_id`, `tax_class_id`, `price`, `final_price`, `min_price`, `max_price`, `tier_price`, `group_price`) VALUES
+(4, 0, 1, 0, 10099.0000, 10099.0000, 10099.0000, 10099.0000, NULL, NULL),
+(4, 1, 1, 0, 10099.0000, 10099.0000, 10099.0000, 10099.0000, NULL, NULL),
+(4, 2, 1, 0, 10099.0000, 10099.0000, 10099.0000, 10099.0000, NULL, NULL),
+(4, 3, 1, 0, 10099.0000, 10099.0000, 10099.0000, 10099.0000, NULL, NULL);
+
 -- --------------------------------------------------------
 
 --
@@ -2065,6 +2475,13 @@ CREATE TABLE IF NOT EXISTS `m1_catalog_product_index_website` (
   PRIMARY KEY (`website_id`),
   KEY `IDX_M1_CATALOG_PRODUCT_INDEX_WEBSITE_WEBSITE_DATE` (`website_date`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Product Website Index Table';
+
+--
+-- Volcado de datos para la tabla `m1_catalog_product_index_website`
+--
+
+INSERT INTO `m1_catalog_product_index_website` (`website_id`, `website_date`, `rate`) VALUES
+(1, '2016-01-25', 1);
 
 -- --------------------------------------------------------
 
@@ -2384,6 +2801,16 @@ CREATE TABLE IF NOT EXISTS `m1_catalog_product_website` (
   KEY `IDX_M1_CATALOG_PRODUCT_WEBSITE_WEBSITE_ID` (`website_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Product To Website Linkage Table';
 
+--
+-- Volcado de datos para la tabla `m1_catalog_product_website`
+--
+
+INSERT INTO `m1_catalog_product_website` (`product_id`, `website_id`) VALUES
+(1, 1),
+(2, 1),
+(3, 1),
+(4, 1);
+
 -- --------------------------------------------------------
 
 --
@@ -2497,7 +2924,7 @@ CREATE TABLE IF NOT EXISTS `m1_cms_page` (
 
 INSERT INTO `m1_cms_page` (`page_id`, `title`, `root_template`, `meta_keywords`, `meta_description`, `identifier`, `content_heading`, `content`, `creation_time`, `update_time`, `is_active`, `sort_order`, `layout_update_xml`, `custom_theme`, `custom_root_template`, `custom_layout_update_xml`, `custom_theme_from`, `custom_theme_to`) VALUES
 (1, '404 Not Found 1', 'two_columns_right', 'Page keywords', 'Page description', 'no-route', NULL, '\n<div class="page-title"><h1>Whoops, our bad...</h1></div>\n<dl>\n    <dt>The page you requested was not found, and we have a fine guess why.</dt>\n    <dd>\n        <ul class="disc">\n            <li>If you typed the URL directly, please make sure the spelling is correct.</li>\n            <li>If you clicked on a link to get here, the link is outdated.</li>\n        </ul>\n    </dd>\n</dl>\n<dl>\n    <dt>What can you do?</dt>\n    <dd>Have no fear, help is near! There are many ways you can get back on track with Magento Store.</dd>\n    <dd>\n        <ul class="disc">\n            <li><a href="#" onclick="history.go(-1); return false;">Go back</a> to the previous page.</li>\n            <li>Use the search bar at the top of the page to search for your products.</li>\n            <li>Follow these links to get you back on track!<br /><a href="{{store url=""}}">Store Home</a>\n            <span class="separator">|</span> <a href="{{store url="customer/account"}}">My Account</a></li>\n        </ul>\n    </dd>\n</dl>\n', '2016-01-26 01:59:21', '2016-01-26 01:59:21', 1, 0, NULL, NULL, NULL, NULL, NULL, NULL),
-(2, 'Home page', 'two_columns_right', NULL, NULL, 'home', NULL, '<div class="page-title"><h2>Home Page</h2></div>', '2016-01-26 01:59:21', '2016-01-26 01:59:33', 1, 0, '<!--<reference name="content">\n        <block type="catalog/product_new" name="home.catalog.product.new" alias="product_new" template="catalog/product/new.phtml" after="cms_page">\n            <action method="addPriceBlockType">\n                <type>bundle</type>\n                <block>bundle/catalog_product_price</block>\n                <template>bundle/catalog/product/price.phtml</template>\n            </action>\n        </block>\n        <block type="reports/product_viewed" name="home.reports.product.viewed" alias="product_viewed" template="reports/home_product_viewed.phtml" after="product_new">\n            <action method="addPriceBlockType">\n                <type>bundle</type>\n                <block>bundle/catalog_product_price</block>\n                <template>bundle/catalog/product/price.phtml</template>\n            </action>\n        </block>\n        <block type="reports/product_compared" name="home.reports.product.compared" template="reports/home_product_compared.phtml" after="product_viewed">\n            <action method="addPriceBlockType">\n                <type>bundle</type>\n                <block>bundle/catalog_product_price</block>\n                <template>bundle/catalog/product/price.phtml</template>\n            </action>\n        </block>\n    </reference>\n    <reference name="right">\n        <action method="unsetChild"><alias>right.reports.product.viewed</alias></action>\n        <action method="unsetChild"><alias>right.reports.product.compared</alias></action>\n    </reference>-->', NULL, NULL, NULL, NULL, NULL),
+(2, 'Home page', 'two_columns_right', NULL, NULL, 'home', NULL, '<div class="page-title">\r\n<h2>Inicio</h2>\r\n</div>\r\n{{widget type="catalog/product_widget_new" display_type="all_products" show_pager="1" products_per_page="5" products_count="10" template="catalog/product/widget/new/content/new_grid.phtml"}}', '2016-01-26 01:59:21', '2016-01-26 05:16:38', 1, 0, '<!--<reference name="content">\r\n        <block type="catalog/product_new" name="home.catalog.product.new" alias="product_new" template="catalog/product/new.phtml" after="cms_page">\r\n            <action method="addPriceBlockType">\r\n                <type>bundle</type>\r\n                <block>bundle/catalog_product_price</block>\r\n                <template>bundle/catalog/product/price.phtml</template>\r\n            </action>\r\n        </block>\r\n        <block type="reports/product_viewed" name="home.reports.product.viewed" alias="product_viewed" template="reports/home_product_viewed.phtml" after="product_new">\r\n            <action method="addPriceBlockType">\r\n                <type>bundle</type>\r\n                <block>bundle/catalog_product_price</block>\r\n                <template>bundle/catalog/product/price.phtml</template>\r\n            </action>\r\n        </block>\r\n        <block type="reports/product_compared" name="home.reports.product.compared" template="reports/home_product_compared.phtml" after="product_viewed">\r\n            <action method="addPriceBlockType">\r\n                <type>bundle</type>\r\n                <block>bundle/catalog_product_price</block>\r\n                <template>bundle/catalog/product/price.phtml</template>\r\n            </action>\r\n        </block>\r\n    </reference>\r\n    <reference name="right">\r\n        <action method="unsetChild"><alias>right.reports.product.viewed</alias></action>\r\n        <action method="unsetChild"><alias>right.reports.product.compared</alias></action>\r\n    </reference>-->', NULL, NULL, NULL, NULL, NULL),
 (3, 'About Us', 'two_columns_right', NULL, NULL, 'about-magento-demo-store', NULL, '\n<div class="page-title">\n    <h1>About Magento Store</h1>\n</div>\n<div class="col3-set">\n<div class="col-1"><p style="line-height:1.2em;"><small>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\nMorbi luctus. Duis lobortis. Nulla nec velit. Mauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec,\ntempus vitae, iaculis semper, pede.</small></p>\n<p style="color:#888; font:1.2em/1.4em georgia, serif;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\nMorbi luctus. Duis lobortis. Nulla nec velit. Mauris pulvinar erat non massa. Suspendisse tortor turpis,\nporta nec, tempus vitae, iaculis semper, pede. Cras vel libero id lectus rhoncus porta.</p></div>\n<div class="col-2">\n<p><strong style="color:#de036f;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus.\nDuis lobortis. Nulla nec velit.</strong></p>\n<p>Vivamus tortor nisl, lobortis in, faucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper.\nPhasellus id massa. Pellentesque nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada\nfames ac turpis egestas. Nunc augue. Aenean sed justo non leo vehicula laoreet. Praesent ipsum libero, auctor ac,\ntempus nec, tempor nec, justo. </p>\n<p>Maecenas ullamcorper, odio vel tempus egestas, dui orci faucibus orci, sit amet aliquet lectus dolor et quam.\nPellentesque consequat luctus purus. Nunc et risus. Etiam a nibh. Phasellus dignissim metus eget nisi.\nVestibulum sapien dolor, aliquet nec, porta ac, malesuada a, libero. Praesent feugiat purus eget est.\nNulla facilisi. Vestibulum tincidunt sapien eu velit. Mauris purus. Maecenas eget mauris eu orci accumsan feugiat.\nPellentesque eget velit. Nunc tincidunt.</p></div>\n<div class="col-3">\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit.\nMauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede.\nCras vel libero id lectus rhoncus porta. Suspendisse convallis felis ac enim. Vivamus tortor nisl, lobortis in,\nfaucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper </p>\n<p><strong style="color:#de036f;">Maecenas ullamcorper, odio vel tempus egestas, dui orci faucibus orci,\nsit amet aliquet lectus dolor et quam. Pellentesque consequat luctus purus.</strong></p>\n<p>Nunc et risus. Etiam a nibh. Phasellus dignissim metus eget nisi.</p>\n<div class="divider"></div>\n<p>To all of you, from all of us at Magento Store - Thank you and Happy eCommerce!</p>\n<p style="line-height:1.2em;"><strong style="font:italic 2em Georgia, serif;">John Doe</strong><br />\n<small>Some important guy</small></p></div>\n</div>', '2016-01-26 01:59:21', '2016-01-26 01:59:21', 1, 0, NULL, NULL, NULL, NULL, NULL, NULL),
 (4, 'Customer Service', 'three_columns', NULL, NULL, 'customer-service', NULL, '<div class="page-title">\n<h1>Customer Service</h1>\n</div>\n<ul class="disc">\n<li><a href="#answer1">Shipping &amp; Delivery</a></li>\n<li><a href="#answer2">Privacy &amp; Security</a></li>\n<li><a href="#answer3">Returns &amp; Replacements</a></li>\n<li><a href="#answer4">Ordering</a></li>\n<li><a href="#answer5">Payment, Pricing &amp; Promotions</a></li>\n<li><a href="#answer6">Viewing Orders</a></li>\n<li><a href="#answer7">Updating Account Information</a></li>\n</ul>\n<dl>\n<dt id="answer1">Shipping &amp; Delivery</dt>\n<dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit.\nMauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede.\nCras vel libero id lectus rhoncus porta. Suspendisse convallis felis ac enim. Vivamus tortor nisl, lobortis in,\nfaucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper. Phasellus id massa.\nPellentesque nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.\nNunc augue. Aenean sed justo non leo vehicula laoreet. Praesent ipsum libero, auctor ac, tempus nec, tempor nec,\njusto.</dd>\n<dt id="answer2">Privacy &amp; Security</dt>\n<dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit.\nMauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede.\nCras vel libero id lectus rhoncus porta. Suspendisse convallis felis ac enim. Vivamus tortor nisl, lobortis in,\nfaucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper. Phasellus id massa.\nPellentesque nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.\nNunc augue. Aenean sed justo non leo vehicula laoreet. Praesent ipsum libero, auctor ac, tempus nec, tempor nec,\njusto.</dd>\n<dt id="answer3">Returns &amp; Replacements</dt>\n<dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit.\nMauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede.\nCras vel libero id lectus rhoncus porta. Suspendisse convallis felis ac enim. Vivamus tortor nisl, lobortis in,\nfaucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper. Phasellus id massa.\nPellentesque nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.\nNunc augue. Aenean sed justo non leo vehicula laoreet. Praesent ipsum libero, auctor ac, tempus nec, tempor nec,\njusto.</dd>\n<dt id="answer4">Ordering</dt>\n<dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit.\nMauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede.\nCras vel libero id lectus rhoncus porta. Suspendisse convallis felis ac enim. Vivamus tortor nisl, lobortis in,\nfaucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper. Phasellus id massa.\nPellentesque nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.\nNunc augue. Aenean sed justo non leo vehicula laoreet. Praesent ipsum libero, auctor ac, tempus nec, tempor nec,\njusto.</dd>\n<dt id="answer5">Payment, Pricing &amp; Promotions</dt>\n<dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit.\nMauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede.\nCras vel libero id lectus rhoncus porta. Suspendisse convallis felis ac enim. Vivamus tortor nisl, lobortis in,\nfaucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper. Phasellus id massa.\nPellentesque nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.\nNunc augue. Aenean sed justo non leo vehicula laoreet. Praesent ipsum libero, auctor ac, tempus nec, tempor nec,\njusto.</dd>\n<dt id="answer6">Viewing Orders</dt>\n<dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit.\nMauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede.\nCras vel libero id lectus rhoncus porta. Suspendisse convallis felis ac enim. Vivamus tortor nisl, lobortis in,\nfaucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper. Phasellus id massa.\n Pellentesque nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.\n Nunc augue. Aenean sed justo non leo vehicula laoreet. Praesent ipsum libero, auctor ac, tempus nec, tempor nec,\n justo.</dd>\n<dt id="answer7">Updating Account Information</dt>\n<dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit.\n Mauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede.\n Cras vel libero id lectus rhoncus porta. Suspendisse convallis felis ac enim. Vivamus tortor nisl, lobortis in,\n faucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper. Phasellus id massa.\n Pellentesque nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.\n Nunc augue. Aenean sed justo non leo vehicula laoreet. Praesent ipsum libero, auctor ac, tempus nec, tempor nec,\n justo.</dd>\n</dl>', '2016-01-26 01:59:22', '2016-01-26 01:59:22', 1, 0, NULL, NULL, NULL, NULL, NULL, NULL),
 (5, 'Enable Cookies', 'one_column', NULL, NULL, 'enable-cookies', NULL, '<div class="std">\n    <ul class="messages">\n        <li class="notice-msg">\n            <ul>\n                <li>Please enable cookies in your web browser to continue.</li>\n            </ul>\n        </li>\n    </ul>\n    <div class="page-title">\n        <h1><a name="top"></a>What are Cookies?</h1>\n    </div>\n    <p>Cookies are short pieces of data that are sent to your computer when you visit a website.\n    On later visits, this data is then returned to that website. Cookies allow us to recognize you automatically\n    whenever you visit our site so that we can personalize your experience and provide you with better service.\n    We also use cookies (and similar browser data, such as Flash cookies) for fraud prevention and other purposes.\n     If your web browser is set to refuse cookies from our website, you will not be able to complete a purchase\n     or take advantage of certain features of our website, such as storing items in your Shopping Cart or\n     receiving personalized recommendations. As a result, we strongly encourage you to configure your web\n     browser to accept cookies from our website.</p>\n    <h2 class="subtitle">Enabling Cookies</h2>\n    <ul class="disc">\n        <li><a href="#ie7">Internet Explorer 7.x</a></li>\n        <li><a href="#ie6">Internet Explorer 6.x</a></li>\n        <li><a href="#firefox">Mozilla/Firefox</a></li>\n        <li><a href="#opera">Opera 7.x</a></li>\n    </ul>\n    <h3><a name="ie7"></a>Internet Explorer 7.x</h3>\n    <ol>\n        <li>\n            <p>Start Internet Explorer</p>\n        </li>\n        <li>\n            <p>Under the <strong>Tools</strong> menu, click <strong>Internet Options</strong></p>\n            <p><img src="{{skin url="images/cookies/ie7-1.gif"}}" alt="" /></p>\n        </li>\n        <li>\n            <p>Click the <strong>Privacy</strong> tab</p>\n            <p><img src="{{skin url="images/cookies/ie7-2.gif"}}" alt="" /></p>\n        </li>\n        <li>\n            <p>Click the <strong>Advanced</strong> button</p>\n            <p><img src="{{skin url="images/cookies/ie7-3.gif"}}" alt="" /></p>\n        </li>\n        <li>\n            <p>Put a check mark in the box for <strong>Override Automatic Cookie Handling</strong>,\n            put another check mark in the <strong>Always accept session cookies </strong>box</p>\n            <p><img src="{{skin url="images/cookies/ie7-4.gif"}}" alt="" /></p>\n        </li>\n        <li>\n            <p>Click <strong>OK</strong></p>\n            <p><img src="{{skin url="images/cookies/ie7-5.gif"}}" alt="" /></p>\n        </li>\n        <li>\n            <p>Click <strong>OK</strong></p>\n            <p><img src="{{skin url="images/cookies/ie7-6.gif"}}" alt="" /></p>\n        </li>\n        <li>\n            <p>Restart Internet Explore</p>\n        </li>\n    </ol>\n    <p class="a-top"><a href="#top">Back to Top</a></p>\n    <h3><a name="ie6"></a>Internet Explorer 6.x</h3>\n    <ol>\n        <li>\n            <p>Select <strong>Internet Options</strong> from the Tools menu</p>\n            <p><img src="{{skin url="images/cookies/ie6-1.gif"}}" alt="" /></p>\n        </li>\n        <li>\n            <p>Click on the <strong>Privacy</strong> tab</p>\n        </li>\n        <li>\n            <p>Click the <strong>Default</strong> button (or manually slide the bar down to <strong>Medium</strong>)\n            under <strong>Settings</strong>. Click <strong>OK</strong></p>\n            <p><img src="{{skin url="images/cookies/ie6-2.gif"}}" alt="" /></p>\n        </li>\n    </ol>\n    <p class="a-top"><a href="#top">Back to Top</a></p>\n    <h3><a name="firefox"></a>Mozilla/Firefox</h3>\n    <ol>\n        <li>\n            <p>Click on the <strong>Tools</strong>-menu in Mozilla</p>\n        </li>\n        <li>\n            <p>Click on the <strong>Options...</strong> item in the menu - a new window open</p>\n        </li>\n        <li>\n            <p>Click on the <strong>Privacy</strong> selection in the left part of the window. (See image below)</p>\n            <p><img src="{{skin url="images/cookies/firefox.png"}}" alt="" /></p>\n        </li>\n        <li>\n            <p>Expand the <strong>Cookies</strong> section</p>\n        </li>\n        <li>\n            <p>Check the <strong>Enable cookies</strong> and <strong>Accept cookies normally</strong> checkboxes</p>\n        </li>\n        <li>\n            <p>Save changes by clicking <strong>Ok</strong>.</p>\n        </li>\n    </ol>\n    <p class="a-top"><a href="#top">Back to Top</a></p>\n    <h3><a name="opera"></a>Opera 7.x</h3>\n    <ol>\n        <li>\n            <p>Click on the <strong>Tools</strong> menu in Opera</p>\n        </li>\n        <li>\n            <p>Click on the <strong>Preferences...</strong> item in the menu - a new window open</p>\n        </li>\n        <li>\n            <p>Click on the <strong>Privacy</strong> selection near the bottom left of the window. (See image below)</p>\n            <p><img src="{{skin url="images/cookies/opera.png"}}" alt="" /></p>\n        </li>\n        <li>\n            <p>The <strong>Enable cookies</strong> checkbox must be checked, and <strong>Accept all cookies</strong>\n            should be selected in the &quot;<strong>Normal cookies</strong>&quot; drop-down</p>\n        </li>\n        <li>\n            <p>Save changes by clicking <strong>Ok</strong></p>\n        </li>\n    </ol>\n    <p class="a-top"><a href="#top">Back to Top</a></p>\n</div>\n', '2016-01-26 01:59:22', '2016-01-26 01:59:22', 1, 0, NULL, NULL, NULL, NULL, NULL, NULL),
@@ -2522,11 +2949,11 @@ CREATE TABLE IF NOT EXISTS `m1_cms_page_store` (
 
 INSERT INTO `m1_cms_page_store` (`page_id`, `store_id`) VALUES
 (1, 0),
-(2, 0),
 (3, 0),
 (4, 0),
 (5, 0),
-(6, 0);
+(6, 0),
+(2, 1);
 
 -- --------------------------------------------------------
 
@@ -2561,14 +2988,14 @@ CREATE TABLE IF NOT EXISTS `m1_core_cache_option` (
 --
 
 INSERT INTO `m1_core_cache_option` (`code`, `value`) VALUES
-('block_html', 1),
-('collections', 1),
-('config', 1),
-('config_api', 1),
-('config_api2', 1),
-('eav', 1),
-('layout', 1),
-('translate', 1);
+('block_html', 0),
+('collections', 0),
+('config', 0),
+('config_api', 0),
+('config_api2', 0),
+('eav', 0),
+('layout', 0),
+('translate', 0);
 
 -- --------------------------------------------------------
 
@@ -2597,7 +3024,7 @@ CREATE TABLE IF NOT EXISTS `m1_core_config_data` (
   `value` text COMMENT 'Config Value',
   PRIMARY KEY (`config_id`),
   UNIQUE KEY `UNQ_M1_CORE_CONFIG_DATA_SCOPE_SCOPE_ID_PATH` (`scope`,`scope_id`,`path`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Config Data' AUTO_INCREMENT=61 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Config Data' AUTO_INCREMENT=105 ;
 
 --
 -- Volcado de datos para la tabla `m1_core_config_data`
@@ -2614,7 +3041,7 @@ INSERT INTO `m1_core_config_data` (`config_id`, `scope`, `scope_id`, `path`, `va
 (8, 'default', 0, 'admin/dashboard/enable_charts', '1'),
 (9, 'default', 0, 'web/unsecure/base_url', 'http://magento.desarrollo.com/'),
 (10, 'default', 0, 'web/secure/base_url', 'http://magento.desarrollo.com/'),
-(11, 'default', 0, 'general/locale/code', 'es_MX'),
+(11, 'default', 0, 'general/locale/code', 'es_ES'),
 (12, 'default', 0, 'general/locale/timezone', 'America/Chihuahua'),
 (13, 'default', 0, 'currency/options/base', 'MXN'),
 (14, 'default', 0, 'currency/options/default', 'MXN'),
@@ -2663,7 +3090,51 @@ INSERT INTO `m1_core_config_data` (`config_id`, `scope`, `scope_id`, `path`, `va
 (57, 'default', 0, 'web/session/use_http_user_agent', '0'),
 (58, 'default', 0, 'web/session/use_frontend_sid', '1'),
 (59, 'default', 0, 'web/browser_capabilities/cookies', '1'),
-(60, 'default', 0, 'web/browser_capabilities/javascript', '1');
+(60, 'default', 0, 'web/browser_capabilities/javascript', '1'),
+(61, 'default', 0, 'design/package/name', 'rwd'),
+(62, 'default', 0, 'design/package/ua_regexp', 'a:0:{}'),
+(63, 'default', 0, 'design/theme/locale', NULL),
+(64, 'default', 0, 'design/theme/template', NULL),
+(65, 'default', 0, 'design/theme/template_ua_regexp', 'a:0:{}'),
+(66, 'default', 0, 'design/theme/skin', NULL),
+(67, 'default', 0, 'design/theme/skin_ua_regexp', 'a:0:{}'),
+(68, 'default', 0, 'design/theme/layout', NULL),
+(69, 'default', 0, 'design/theme/layout_ua_regexp', 'a:0:{}'),
+(70, 'default', 0, 'design/theme/default', NULL),
+(71, 'default', 0, 'design/theme/default_ua_regexp', 'a:0:{}'),
+(72, 'default', 0, 'design/head/default_title', 'Magento Commerce'),
+(73, 'default', 0, 'design/head/title_prefix', NULL),
+(74, 'default', 0, 'design/head/title_suffix', NULL),
+(75, 'default', 0, 'design/head/default_description', 'Default Description'),
+(76, 'default', 0, 'design/head/default_keywords', 'Magento, Varien, E-commerce'),
+(77, 'default', 0, 'design/head/default_robots', 'INDEX,FOLLOW'),
+(78, 'default', 0, 'design/head/includes', NULL),
+(79, 'default', 0, 'design/head/demonotice', '0'),
+(80, 'default', 0, 'design/header/logo_src', 'images/logo.gif'),
+(81, 'default', 0, 'design/header/logo_alt', 'Magento Commerce'),
+(82, 'default', 0, 'design/header/logo_src_small', 'images/logo.gif'),
+(83, 'default', 0, 'design/header/welcome', 'Curso de magento!'),
+(84, 'default', 0, 'design/footer/copyright', '&copy; 2016 Magento Demo Store. All Rights Reserved.'),
+(85, 'default', 0, 'design/footer/absolute_footer', NULL),
+(86, 'default', 0, 'design/watermark/image_size', NULL),
+(87, 'default', 0, 'design/watermark/image_imageOpacity', NULL),
+(88, 'default', 0, 'design/watermark/image_position', 'stretch'),
+(89, 'default', 0, 'design/watermark/small_image_size', NULL),
+(90, 'default', 0, 'design/watermark/small_image_imageOpacity', NULL),
+(91, 'default', 0, 'design/watermark/small_image_position', 'stretch'),
+(92, 'default', 0, 'design/watermark/thumbnail_size', NULL),
+(93, 'default', 0, 'design/watermark/thumbnail_imageOpacity', NULL),
+(94, 'default', 0, 'design/watermark/thumbnail_position', 'stretch'),
+(95, 'default', 0, 'design/pagination/pagination_frame', '5'),
+(96, 'default', 0, 'design/pagination/pagination_frame_skip', NULL),
+(97, 'default', 0, 'design/pagination/anchor_text_for_previous', NULL),
+(98, 'default', 0, 'design/pagination/anchor_text_for_next', NULL),
+(99, 'default', 0, 'design/email/logo_alt', NULL),
+(100, 'default', 0, 'design/email/logo_width', NULL),
+(101, 'default', 0, 'design/email/logo_height', NULL),
+(102, 'default', 0, 'design/email/header', 'design_email_header'),
+(103, 'default', 0, 'design/email/footer', 'design_email_footer'),
+(104, 'default', 0, 'design/email/css_non_inline', 'email-non-inline.css');
 
 -- --------------------------------------------------------
 
@@ -2965,7 +3436,19 @@ CREATE TABLE IF NOT EXISTS `m1_core_url_rewrite` (
   KEY `IDX_M1_CORE_URL_REWRITE_STORE_ID` (`store_id`),
   KEY `FK_M1_CORE_URL_REWRITE_CTGR_ID_M1_CAT_CTGR_ENTT_ENTT_ID` (`category_id`),
   KEY `FK_M1_CORE_URL_REWRITE_PRD_ID_M1_CAT_CTGR_ENTT_ENTT_ID` (`product_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Url Rewrites' AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Url Rewrites' AUTO_INCREMENT=9 ;
+
+--
+-- Volcado de datos para la tabla `m1_core_url_rewrite`
+--
+
+INSERT INTO `m1_core_url_rewrite` (`url_rewrite_id`, `store_id`, `id_path`, `request_path`, `target_path`, `is_system`, `options`, `description`, `category_id`, `product_id`) VALUES
+(1, 1, 'product/1', 'iphone-6.html', 'catalog/product/view/id/1', 1, NULL, NULL, NULL, 1),
+(2, 1, 'product/2', 'iphone-5.html', 'catalog/product/view/id/2', 1, NULL, NULL, NULL, 2),
+(4, 1, '35612100_1453763106', 'iphone-6-2.html', 'iphone-5.html', 0, 'RP', NULL, NULL, 2),
+(5, 1, 'product/3', 'galaxy-s6.html', 'catalog/product/view/id/3', 1, NULL, NULL, NULL, 3),
+(6, 1, 'product/4', 'moto-x.html', 'catalog/product/view/id/4', 1, NULL, NULL, NULL, 4),
+(8, 1, '26648500_1453764567', 'galaxy-s6-4.html', 'moto-x.html', 0, 'RP', NULL, NULL, 4);
 
 -- --------------------------------------------------------
 
@@ -3738,7 +4221,14 @@ CREATE TABLE IF NOT EXISTS `m1_design_change` (
   `date_to` date DEFAULT NULL COMMENT 'Last Date of Design Activity',
   PRIMARY KEY (`design_change_id`),
   KEY `IDX_M1_DESIGN_CHANGE_STORE_ID` (`store_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Design Changes' AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Design Changes' AUTO_INCREMENT=2 ;
+
+--
+-- Volcado de datos para la tabla `m1_design_change`
+--
+
+INSERT INTO `m1_design_change` (`design_change_id`, `store_id`, `design`, `date_from`, `date_to`) VALUES
+(1, 1, 'default/hellowired', NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -6071,7 +6561,7 @@ CREATE TABLE IF NOT EXISTS `m1_index_event` (
   `new_data` mediumtext COMMENT 'New Data',
   PRIMARY KEY (`event_id`),
   UNIQUE KEY `UNQ_M1_INDEX_EVENT_TYPE_ENTITY_ENTITY_PK` (`type`,`entity`,`entity_pk`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Index Event' AUTO_INCREMENT=3 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Index Event' AUTO_INCREMENT=18 ;
 
 --
 -- Volcado de datos para la tabla `m1_index_event`
@@ -6079,7 +6569,22 @@ CREATE TABLE IF NOT EXISTS `m1_index_event` (
 
 INSERT INTO `m1_index_event` (`event_id`, `type`, `entity`, `entity_pk`, `created_at`, `old_data`, `new_data`) VALUES
 (1, 'save', 'catalog_category', 1, '2016-01-26 01:59:28', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
-(2, 'save', 'catalog_category', 2, '2016-01-26 01:59:28', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}');
+(2, 'save', 'catalog_category', 2, '2016-01-26 01:59:28', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(3, 'save', 'catalog_category', 3, '2016-01-26 03:21:34', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(4, 'save', 'catalog_category', 4, '2016-01-26 03:22:16', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(5, 'save', 'catalog_category', 5, '2016-01-26 03:22:30', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(6, 'save', 'cataloginventory_stock_item', 1, '2016-01-26 03:43:15', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:1;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:0;s:37:"catalog_category_product_match_result";b:0;s:35:"catalogsearch_fulltext_match_result";b:0;}'),
+(7, 'catalog_reindex_price', 'catalog_product', 1, '2016-01-26 03:43:16', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:1;s:24:"catalog_url_match_result";b:0;s:37:"catalog_category_product_match_result";b:0;s:35:"catalogsearch_fulltext_match_result";b:0;}'),
+(8, 'save', 'catalog_product', 1, '2016-01-26 03:43:17', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:1;s:34:"catalog_product_price_match_result";b:1;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(9, 'save', 'cataloginventory_stock_item', 2, '2016-01-26 05:01:52', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:1;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:0;s:37:"catalog_category_product_match_result";b:0;s:35:"catalogsearch_fulltext_match_result";b:0;}'),
+(10, 'catalog_reindex_price', 'catalog_product', 2, '2016-01-26 05:01:52', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:1;s:24:"catalog_url_match_result";b:0;s:37:"catalog_category_product_match_result";b:0;s:35:"catalogsearch_fulltext_match_result";b:0;}'),
+(11, 'save', 'catalog_product', 2, '2016-01-26 05:01:52', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:1;s:34:"catalog_product_price_match_result";b:1;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(12, 'save', 'cataloginventory_stock_item', 3, '2016-01-26 05:23:51', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:1;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:0;s:37:"catalog_category_product_match_result";b:0;s:35:"catalogsearch_fulltext_match_result";b:0;}'),
+(13, 'catalog_reindex_price', 'catalog_product', 3, '2016-01-26 05:23:51', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:1;s:24:"catalog_url_match_result";b:0;s:37:"catalog_category_product_match_result";b:0;s:35:"catalogsearch_fulltext_match_result";b:0;}'),
+(14, 'save', 'catalog_product', 3, '2016-01-26 05:23:52', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:1;s:34:"catalog_product_price_match_result";b:1;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}'),
+(15, 'save', 'cataloginventory_stock_item', 4, '2016-01-26 05:24:07', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:1;s:34:"catalog_product_price_match_result";b:0;s:24:"catalog_url_match_result";b:0;s:37:"catalog_category_product_match_result";b:0;s:35:"catalogsearch_fulltext_match_result";b:0;}'),
+(16, 'catalog_reindex_price', 'catalog_product', 4, '2016-01-26 05:24:08', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:0;s:34:"catalog_product_price_match_result";b:1;s:24:"catalog_url_match_result";b:0;s:37:"catalog_category_product_match_result";b:0;s:35:"catalogsearch_fulltext_match_result";b:0;}'),
+(17, 'save', 'catalog_product', 4, '2016-01-26 05:24:08', NULL, 'a:5:{s:35:"cataloginventory_stock_match_result";b:1;s:34:"catalog_product_price_match_result";b:1;s:24:"catalog_url_match_result";b:1;s:37:"catalog_category_product_match_result";b:1;s:35:"catalogsearch_fulltext_match_result";b:1;}');
 
 -- --------------------------------------------------------
 
@@ -6103,15 +6608,15 @@ CREATE TABLE IF NOT EXISTS `m1_index_process` (
 --
 
 INSERT INTO `m1_index_process` (`process_id`, `indexer_code`, `status`, `started_at`, `ended_at`, `mode`) VALUES
-(1, 'catalog_product_attribute', 'require_reindex', NULL, NULL, 'real_time'),
-(2, 'catalog_product_price', 'require_reindex', NULL, NULL, 'real_time'),
-(3, 'catalog_url', 'require_reindex', '2016-01-26 01:59:28', '2016-01-26 01:59:28', 'real_time'),
+(1, 'catalog_product_attribute', 'require_reindex', '2016-01-26 05:31:03', '2016-01-26 05:31:03', 'real_time'),
+(2, 'catalog_product_price', 'require_reindex', '2016-01-26 05:31:03', '2016-01-26 05:31:03', 'real_time'),
+(3, 'catalog_url', 'require_reindex', '2016-01-26 05:31:42', '2016-01-26 05:31:42', 'real_time'),
 (4, 'catalog_product_flat', 'require_reindex', NULL, NULL, 'real_time'),
 (5, 'catalog_category_flat', 'require_reindex', NULL, NULL, 'real_time'),
-(6, 'catalog_category_product', 'require_reindex', '2016-01-26 01:59:28', '2016-01-26 01:59:28', 'real_time'),
-(7, 'catalogsearch_fulltext', 'require_reindex', '2016-01-26 01:59:28', '2016-01-26 01:59:28', 'real_time'),
-(8, 'cataloginventory_stock', 'require_reindex', NULL, NULL, 'real_time'),
-(9, 'tag_summary', 'require_reindex', NULL, NULL, 'real_time');
+(6, 'catalog_category_product', 'require_reindex', '2016-01-26 05:31:42', '2016-01-26 05:31:42', 'real_time'),
+(7, 'catalogsearch_fulltext', 'require_reindex', '2016-01-26 05:31:42', '2016-01-26 05:31:42', 'real_time'),
+(8, 'cataloginventory_stock', 'require_reindex', '2016-01-26 05:31:03', '2016-01-26 05:31:03', 'real_time'),
+(9, 'tag_summary', 'require_reindex', '2016-01-26 05:31:03', '2016-01-26 05:31:03', 'real_time');
 
 -- --------------------------------------------------------
 
@@ -6157,6 +6662,13 @@ CREATE TABLE IF NOT EXISTS `m1_log_quote` (
   `deleted_at` timestamp NULL DEFAULT NULL COMMENT 'Deletion Time',
   PRIMARY KEY (`quote_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Log Quotes Table';
+
+--
+-- Volcado de datos para la tabla `m1_log_quote`
+--
+
+INSERT INTO `m1_log_quote` (`quote_id`, `visitor_id`, `created_at`, `deleted_at`) VALUES
+(1, 2, '2016-01-26 05:17:39', NULL);
 
 -- --------------------------------------------------------
 
@@ -6237,14 +6749,15 @@ CREATE TABLE IF NOT EXISTS `m1_log_visitor` (
   `last_url_id` bigint(20) unsigned NOT NULL DEFAULT '0' COMMENT 'Last URL ID',
   `store_id` smallint(5) unsigned NOT NULL COMMENT 'Store ID',
   PRIMARY KEY (`visitor_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Log Visitors Table' AUTO_INCREMENT=2 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Log Visitors Table' AUTO_INCREMENT=3 ;
 
 --
 -- Volcado de datos para la tabla `m1_log_visitor`
 --
 
 INSERT INTO `m1_log_visitor` (`visitor_id`, `session_id`, `first_visit_at`, `last_visit_at`, `last_url_id`, `store_id`) VALUES
-(1, 'etdecmbc1oq05v1dnpfih0tb82', '2016-01-26 02:00:32', '2016-01-26 02:00:45', 0, 1);
+(1, 'etdecmbc1oq05v1dnpfih0tb82', '2016-01-26 02:00:32', '2016-01-26 03:44:20', 0, 1),
+(2, 'cmb06rcnofkoidte577ht5li66', '2016-01-26 05:01:03', '2016-01-26 05:32:46', 0, 1);
 
 -- --------------------------------------------------------
 
@@ -6268,7 +6781,8 @@ CREATE TABLE IF NOT EXISTS `m1_log_visitor_info` (
 --
 
 INSERT INTO `m1_log_visitor_info` (`visitor_id`, `http_referer`, `http_user_agent`, `http_accept_charset`, `http_accept_language`, `server_addr`, `remote_addr`) VALUES
-(1, 'http://magento.desarrollo.com/index.php/install/wizard/end/', 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36', NULL, 'es-ES,es;q=0.8,en;q=0.6', '\0\0', '\0\0');
+(1, 'http://magento.desarrollo.com/index.php/install/wizard/end/', 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36', NULL, 'es-ES,es;q=0.8,en;q=0.6', '\0\0', '\0\0'),
+(2, 'http://magento.desarrollo.com/index.php/catalogsearch/result/?q=iphone&x=0&y=0', 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36', NULL, 'es-ES,es;q=0.8,en;q=0.6', '\0\0', '\0\0');
 
 -- --------------------------------------------------------
 
@@ -6950,7 +7464,19 @@ CREATE TABLE IF NOT EXISTS `m1_report_event` (
   KEY `IDX_M1_REPORT_EVENT_OBJECT_ID` (`object_id`),
   KEY `IDX_M1_REPORT_EVENT_SUBTYPE` (`subtype`),
   KEY `IDX_M1_REPORT_EVENT_STORE_ID` (`store_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Reports Event Table' AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Reports Event Table' AUTO_INCREMENT=7 ;
+
+--
+-- Volcado de datos para la tabla `m1_report_event`
+--
+
+INSERT INTO `m1_report_event` (`event_id`, `logged_at`, `event_type_id`, `object_id`, `subject_id`, `subtype`, `store_id`) VALUES
+(1, '2016-01-26 03:44:19', 1, 1, 1, 1, 1),
+(2, '2016-01-26 05:01:03', 1, 1, 2, 1, 1),
+(3, '2016-01-26 05:01:10', 1, 1, 2, 1, 1),
+(4, '2016-01-26 05:05:50', 1, 2, 2, 1, 1),
+(5, '2016-01-26 05:17:38', 4, 2, 2, 1, 1),
+(6, '2016-01-26 05:32:45', 1, 4, 2, 1, 1);
 
 -- --------------------------------------------------------
 
@@ -7059,7 +7585,17 @@ CREATE TABLE IF NOT EXISTS `m1_report_viewed_product_index` (
   KEY `IDX_M1_REPORT_VIEWED_PRODUCT_INDEX_STORE_ID` (`store_id`),
   KEY `IDX_M1_REPORT_VIEWED_PRODUCT_INDEX_ADDED_AT` (`added_at`),
   KEY `IDX_M1_REPORT_VIEWED_PRODUCT_INDEX_PRODUCT_ID` (`product_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Reports Viewed Product Index Table' AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Reports Viewed Product Index Table' AUTO_INCREMENT=6 ;
+
+--
+-- Volcado de datos para la tabla `m1_report_viewed_product_index`
+--
+
+INSERT INTO `m1_report_viewed_product_index` (`index_id`, `visitor_id`, `customer_id`, `product_id`, `store_id`, `added_at`) VALUES
+(1, 1, NULL, 1, 1, '2016-01-26 03:44:19'),
+(2, 2, NULL, 1, 1, '2016-01-26 05:01:10'),
+(4, 2, NULL, 2, 1, '2016-01-26 05:05:50'),
+(5, 2, NULL, 4, 1, '2016-01-26 05:32:45');
 
 -- --------------------------------------------------------
 
@@ -8214,7 +8750,14 @@ CREATE TABLE IF NOT EXISTS `m1_sales_flat_quote` (
   PRIMARY KEY (`entity_id`),
   KEY `IDX_M1_SALES_FLAT_QUOTE_CUSTOMER_ID_STORE_ID_IS_ACTIVE` (`customer_id`,`store_id`,`is_active`),
   KEY `IDX_M1_SALES_FLAT_QUOTE_STORE_ID` (`store_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Sales Flat Quote' AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Sales Flat Quote' AUTO_INCREMENT=2 ;
+
+--
+-- Volcado de datos para la tabla `m1_sales_flat_quote`
+--
+
+INSERT INTO `m1_sales_flat_quote` (`entity_id`, `store_id`, `created_at`, `updated_at`, `converted_at`, `is_active`, `is_virtual`, `is_multi_shipping`, `items_count`, `items_qty`, `orig_order_id`, `store_to_base_rate`, `store_to_quote_rate`, `base_currency_code`, `store_currency_code`, `quote_currency_code`, `grand_total`, `base_grand_total`, `checkout_method`, `customer_id`, `customer_tax_class_id`, `customer_group_id`, `customer_email`, `customer_prefix`, `customer_firstname`, `customer_middlename`, `customer_lastname`, `customer_suffix`, `customer_dob`, `customer_note`, `customer_note_notify`, `customer_is_guest`, `remote_ip`, `applied_rule_ids`, `reserved_order_id`, `password_hash`, `coupon_code`, `global_currency_code`, `base_to_global_rate`, `base_to_quote_rate`, `customer_taxvat`, `customer_gender`, `subtotal`, `base_subtotal`, `subtotal_with_discount`, `base_subtotal_with_discount`, `is_changed`, `trigger_recollect`, `ext_shipping_info`, `gift_message_id`, `is_persistent`) VALUES
+(1, 1, '2016-01-26 05:17:38', '2016-01-26 05:32:30', NULL, 1, 0, 0, 0, 0.0000, 0, 1.0000, 1.0000, 'MXN', 'MXN', 'MXN', 0.0000, 0.0000, NULL, NULL, 3, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, 0, '127.0.0.1', NULL, NULL, NULL, NULL, 'MXN', 1.0000, 1.0000, NULL, NULL, 0.0000, 0.0000, 0.0000, 0.0000, 1, 0, NULL, NULL, 0);
 
 -- --------------------------------------------------------
 
@@ -8287,7 +8830,15 @@ CREATE TABLE IF NOT EXISTS `m1_sales_flat_quote_address` (
   `gift_message_id` int(11) DEFAULT NULL COMMENT 'Gift Message Id',
   PRIMARY KEY (`address_id`),
   KEY `IDX_M1_SALES_FLAT_QUOTE_ADDRESS_QUOTE_ID` (`quote_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Sales Flat Quote Address' AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Sales Flat Quote Address' AUTO_INCREMENT=3 ;
+
+--
+-- Volcado de datos para la tabla `m1_sales_flat_quote_address`
+--
+
+INSERT INTO `m1_sales_flat_quote_address` (`address_id`, `quote_id`, `created_at`, `updated_at`, `customer_id`, `save_in_address_book`, `customer_address_id`, `address_type`, `email`, `prefix`, `firstname`, `middlename`, `lastname`, `suffix`, `company`, `street`, `city`, `region`, `region_id`, `postcode`, `country_id`, `telephone`, `fax`, `same_as_billing`, `free_shipping`, `collect_shipping_rates`, `shipping_method`, `shipping_description`, `weight`, `subtotal`, `base_subtotal`, `subtotal_with_discount`, `base_subtotal_with_discount`, `tax_amount`, `base_tax_amount`, `shipping_amount`, `base_shipping_amount`, `shipping_tax_amount`, `base_shipping_tax_amount`, `discount_amount`, `base_discount_amount`, `grand_total`, `base_grand_total`, `customer_notes`, `applied_taxes`, `discount_description`, `shipping_discount_amount`, `base_shipping_discount_amount`, `subtotal_incl_tax`, `base_subtotal_total_incl_tax`, `hidden_tax_amount`, `base_hidden_tax_amount`, `shipping_hidden_tax_amount`, `base_shipping_hidden_tax_amnt`, `shipping_incl_tax`, `base_shipping_incl_tax`, `vat_id`, `vat_is_valid`, `vat_request_id`, `vat_request_date`, `vat_request_success`, `gift_message_id`) VALUES
+(1, 1, '2016-01-26 05:17:38', '2016-01-26 05:32:31', NULL, 0, NULL, 'billing', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, NULL, NULL, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, NULL, 'a:0:{}', NULL, NULL, NULL, 0.0000, NULL, NULL, NULL, NULL, NULL, 0.0000, 0.0000, NULL, NULL, NULL, NULL, NULL, NULL),
+(2, 1, '2016-01-26 05:17:38', '2016-01-26 05:32:31', NULL, 0, NULL, 'shipping', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, 0, 1, NULL, NULL, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, NULL, 'a:0:{}', NULL, 0.0000, 0.0000, 0.0000, NULL, 0.0000, 0.0000, 0.0000, NULL, 0.0000, 0.0000, NULL, NULL, NULL, NULL, NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -8407,7 +8958,7 @@ CREATE TABLE IF NOT EXISTS `m1_sales_flat_quote_item` (
   KEY `IDX_M1_SALES_FLAT_QUOTE_ITEM_PRODUCT_ID` (`product_id`),
   KEY `IDX_M1_SALES_FLAT_QUOTE_ITEM_QUOTE_ID` (`quote_id`),
   KEY `IDX_M1_SALES_FLAT_QUOTE_ITEM_STORE_ID` (`store_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Sales Flat Quote Item' AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Sales Flat Quote Item' AUTO_INCREMENT=2 ;
 
 -- --------------------------------------------------------
 
@@ -8423,7 +8974,7 @@ CREATE TABLE IF NOT EXISTS `m1_sales_flat_quote_item_option` (
   `value` text COMMENT 'Value',
   PRIMARY KEY (`option_id`),
   KEY `IDX_M1_SALES_FLAT_QUOTE_ITEM_OPTION_ITEM_ID` (`item_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Sales Flat Quote Item Option' AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Sales Flat Quote Item Option' AUTO_INCREMENT=2 ;
 
 -- --------------------------------------------------------
 

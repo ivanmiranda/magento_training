@@ -90,7 +90,7 @@ ul,ol         { list-style:none; }
 
 
 /* Layout ================================================================================ */
-.page { width:960px;margin:0px auto; text-align:left; padding: 0px 20px 20px 20px; background: #fff; border: 5px solid #cfcfcf; border-width: 0px 5px 5px 5px;}
+.page { width:960px;margin:0px auto; text-align:left; padding: 0px 20px 20px 20px; background: #fff; border: 5px solid #cfcfcf; border-width: 0px 5px 5px 5px; border-radius: 1em;}
 .page-print { background:#fff; padding:25px 30px; text-align:left; }
 .page-empty { background:#fff; padding:20px; text-align:left; }
 .page-popup { background:#fff; padding:25px 30px; text-align:left; }
@@ -150,7 +150,7 @@ button.button { -webkit-border-fit:lines; } /* <- Safari & Google Chrome Fix */
 button.button { overflow:visible; width:auto; border:0; padding:0; margin:0; background:transparent; cursor:pointer; }
 button.button span { float:left; height:29px; background:#205FAD;border-radius: 0.5em; padding:0 0 0 6px; font:bold 11px/25px Tahoma, Verdana, Arial, sans-serif; text-transform:uppercase; line-height: 27px; text-align:center; white-space:nowrap; color:#555; color:#fff; text-shadow: 0px 1px #205FAD !important; }
 button.button:hover span { background-position: bottom left; }
-button.button span span { background-position:100% 0; padding:0 15px 0 9px; }
+button.button span span { background-position:100% 0; padding:0 15px 0 9px; font-size: 0.75em; }
 button.button:hover span span { background-position: bottom right; }
 button.disabled span { color:#bbb !important; }
 
@@ -938,7 +938,7 @@ f/********** Product Prices > */
 /* Add to Links */
 .add-to-links { margin:3px 0 0; }
 .add-to-links li { background:url(../images/bkg_add-to.gif) 2px 50% no-repeat; line-height:1.25; padding-left:12px; }
-.add-to-links li a { color:#444; }
+.add-to-links li a { color:#444; display:none; }
 .add-to-links .separator { display:none; }
 
 /* Add to Cart */
@@ -1607,7 +1607,7 @@ f/********** Product Prices > */
 
 .copyright {  -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px;position:relative; clear:both; border-top: 1px solid #ddd;  border-radius: 1em; background: #6EB5FF; padding: 0px 20px;  height: 40px;  }
 .copyright { color: #CCC; }
-.copyright address,.copyright .f-right {line-height: 40px; }
+.copyright address,.copyright .f-right {line-height: 40px; color:#fff;}
 .copyright .f-right img { padding-top: 8px;}
 .copyright a { color: #fff; }
 .copyright .bugs { margin:0;  }
