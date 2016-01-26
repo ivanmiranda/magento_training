@@ -1892,3 +1892,5 @@ ul.subcategory li a{
 
 /**************************************/
 input {border-radius: 0.5em;}
+#static-slide-home { width: 95%; }
+#static-slide-home img { width: 100%; }
